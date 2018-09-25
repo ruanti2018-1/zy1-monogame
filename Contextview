@@ -1,0 +1,8 @@
+Context View
+The context view shows the relationships, dependencies and interaction of different parts of the framework. We start from every part of the framework, and will try to polish this paper.
+
+IDE
+MonoGame.Framework is written in C#, which is good at writing windows project and is easy for us to create interface. As you can see, it can be used on Mac, Windows, and also Linux platform. And compared to many other game framework, like cocos, it is more useful when developing Browser 3D games. 
+
+Communication Tool
+MonoGame is a open source framework, so we can communicate on GitHub. It is also a great way to communicate on MonoGame’s website.
