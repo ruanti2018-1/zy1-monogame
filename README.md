@@ -3,10 +3,10 @@ SA-monogame
 Group01
 
 Members:
-李斯琪：SiSsi9873
+李斯琪[006]：SiSsi9873
 
-吴亦君：Sakura19981013
+吴亦君[004]：Sakura19981013
 
-程浩宇：HarryCheng365
+程浩宇[002]：HarryCheng365
 
-任远：sumAllie
+任远[013]：sumAllie
