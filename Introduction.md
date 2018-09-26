@@ -2,6 +2,7 @@ Introduction
 
 
 1.What is the monogame
+
 MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow people to make great games using a simple API. The currently supported platforms are as follows.
 
 >Desktop PCs
@@ -25,6 +26,7 @@ Xbox One (both UWP and XDK) (id@xbox)
 Nintendo Switch (Nintendo)
 
 2.History
+
 In 2009 José Antonio Leal de Farias, an active member of the XNA community, started an open source project called XNA Touch with the goal of porting simple 2D XNA games to mobile devices.  He started from Bill Reiss’s SilverSprite and some bits of Mono.XNA and in December 2009 the first release which only supported iPhone was posted on Codeplex.
 
 Over 2010 several iPhone games appeared on the Apple App Store which used XNA Touch.
