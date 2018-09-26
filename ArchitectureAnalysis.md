@@ -1,12 +1,66 @@
 # MarkDown
 ## Context View
-### System Requirements
-#### Windows
+
+The context view describes the relationships, dependencies, and interactions between the system and its environment(the people, systems, and external entities with which it interacts). This section examines Monogame's scope, its dependencies on others and the interaction with other parties.
+
+
+
+#### System scope & Responsibilities
+
+MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow people to make great games using a simple API. As a pioneer of framworks for creating cross-platform games, MonoGame possesses 4 prominent advantages. 
+
+##### Managed Code 
+
+By leveraging C# and other .NET languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code.
+
+##### Cross-Platform
+
+Monogame currently supports iOS, Android, MacOS, Linux, all Windows platforms, PS4, PSVita, Xbox One, and Switch with more platforms on the way.
+
+##### Open-Source
+
+All the code is available to programmer ensuring them'll have the ability to make changes when they need to or even port to whole new platforms.
+
+##### Community
+
+With 1000s of shipped games we have built up a vibrant community of developers which use MonoGame for both fun and profit.
+
+#### External entities and interfaces
+
+Monogame is a widely-used framework to build cross-platform games. As one can imagine, a software project like this cannot be developed without external libraries, tools and frameworks. On the other hand, many companies cannot develop their game without Monogame. These external relations are examined in this section. Below, these are elaborated upon.
+
+- MonoGame follows the open-source standards of XNA API
+- 4.0 XNA API is based on .NET Framework 4.0 and platform, Visual Studio 2012. As a result, MonoGame is written in C#.
+- 
+
+
+
+#### System Requirements
+
+This section will give you an overview of minimal system requirements for developing and running MonoGame Applications.
+
+##### Development
+
+- Windows -
+- Linux - 1 GB Ram
+- Mac -
+
+##### Running MonoGame Application on specific Platform
+
+- WindowsDX - DirectX 9.0c capable gpu
+- WindowsGL -
+- Linux - 512 MB Ram
+- Mac -
+- Android - Android 4.2 or higher
+- iOS -
+- Windows Phone - Windows Phone 10
+
+##### Windows
 - MonoGame for Visual Studio (requires a 64bit version of Windows, VS2013, VS2015, or VS2017, and the latest DirectX Runtime)
-#### Mac OS
+##### Mac OS
 - MonoGame for Mac (includes the Mac and iOS assemblies, the Pipeline Tool, and the installs the addin for Xamarin Studio if installed)
 Stand alone installer for the MonoGame Pipeline Tool for Mac (requires Mono)
-#### Linux
+##### Linux
 - MonoGame for Linux (includes assemblies, the Pipeline Tool, and the MonoDevelop addin)
 
 
