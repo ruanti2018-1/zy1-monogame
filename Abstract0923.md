@@ -8,3 +8,5 @@ SA-monogame
 -Monogame is a cross-platform, hardware accelerated API providing graphics, audio, game state management, input, and a content pipeline for importing assets. Unlike most game engines, monogame does not provide or impose any pattern or project structure. While this means that developers are free to organize their code as they like, it also means that a bit of setup code is needed when first starting a new project.
 
 -The monogame library is intended to mimic Microsoft's XNA library in both syntax and functionality. All monogame objects exist under the Microsoft.Xna namespace - allowing most XNA code to be used in monogame with no modification.
+
+-MonoGame also supports a number of Game Consoles. The templates and source for these platforms are not publicly availalbe. However they are available to developers registered with the appropriate developer programs.
