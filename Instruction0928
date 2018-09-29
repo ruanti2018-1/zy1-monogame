@@ -1,0 +1,22 @@
+Source code
+
+· The game framework is found in [MonoGame.Framework].
+· The content pipeline is located in [MonoGame.Framework.Content.Pipeline].
+· The MonoDevelop addin is in [IDE/MonoDevelop].
+· The Visual Studio templates are in [ProjectTemplates].
+· NuGet packages are located in [NuGetPackages].
+· See [Test] for the pipeline and framework unit tests.
+· [Tools/MGCB] is the command line tool for content processing.
+· [Tools/2MGFX] is the command line effect compiler tool.
+· The [Tools/Pipeline] tool is a GUI frontend for content processing.
+
+
+Helpful Links
+
+· The official website is monogame.net.
+· Our issue tracker is on GitHub.
+· Use our community forums for support questions.
+· You can chat live with the core developers and other users.
+· The official documentation is on our website.
+· Download release and development installers and packages.
+· Follow @MonoGameTeam on Twitter.
