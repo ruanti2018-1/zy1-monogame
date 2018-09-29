@@ -7,7 +7,7 @@ The context view describes the relationships, dependencies, and interactions bet
 
 #### System scope & Responsibilities
 
-MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow people to make great games using a simple API. As a pioneer of framworks for creating cross-platform games, MonoGame possesses 4 prominent advantages. 
+MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow XNA developers on Xbox 360, Windows & Windows Phone to port their games to the iOS, Android, Mac OS X, Linux and Windows 8/10.As well as PlayStation Vita, Xbox One and PlayStation 4. As a pioneer of framworks for creating cross-platform games, MonoGame possesses 4 prominent advantages. 
 
 ##### Managed Code 
 
@@ -31,7 +31,10 @@ Monogame is a widely-used framework to build cross-platform games. As one can im
 
 - MonoGame follows the open-source standards of XNA API
 - 4.0 XNA API is based on .NET Framework 4.0 and platform, Visual Studio 2012. As a result, MonoGame is written in C#.
-- 
+- Active development team of 30-40 core developers and more than 200 contributors from the open source community
+- The major user of Monogame is individual developers. There are some prominent productions such as Stardewvalley, Pumpkin Games, Apotheon.etc
+- A Githubu repository filled with code, plugins and many issues is used to host the code base
+- Communication and support is provided via Github, Facebook, Tiwtter, YouTube and its own community.
 
 
 
@@ -65,8 +68,10 @@ Stand alone installer for the MonoGame Pipeline Tool for Mac (requires Mono)
 
 
 
-
 ## Evolve View(Change Log for latest Three Years)
+
+This section analyses the evolution of the Monogame Framework. The evolution perspective focuses on identifying the abi
+
 ### 3.6 Release - 2/28/2017
 - Fixed XML deserialization of Curve type. #5494
 - Fix #5498 Pipeline Tool template loading on MacOS. #5501
