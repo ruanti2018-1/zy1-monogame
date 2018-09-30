@@ -14,8 +14,8 @@ Members:
 
 ## Source and division
 
- * The game framework is found in [MonoGame.Framework](MonoGame.Framework). <all of us>
- * The content pipeline is located in [MonoGame.Framework.Content.Pipeline](MonoGame.Framework.Content.Pipeline). <all of us>
+ * The game framework is found in [MonoGame.Framework](MonoGame.Framework).  <all>
+ * The content pipeline is located in [MonoGame.Framework.Content.Pipeline](MonoGame.Framework.Content.Pipeline).  <all>
  * The MonoDevelop addin is in [IDE/MonoDevelop](IDE/MonoDevelop). <002 程浩宇>
  * The Visual Studio templates are in [ProjectTemplates](ProjectTemplates).
  * NuGet packages are located in [NuGetPackages](NuGetPackages).
