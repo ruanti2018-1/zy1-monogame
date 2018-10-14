@@ -5,11 +5,15 @@
 ## Abstract
 
 ## Table of contents
-- [Introduction](#Introduction)
-
-- [Stakeholders](#Stakeholders)
-
+- [Introduction](#introduction)
+- [Stakeholders](#stakeholders)
+- [Context view](#context-view)
+- [Architecture](#architecture)
+- [...]
 ## Introduction
 
 ## Stakeholders
 
+## Context view
+
+## Architecture
