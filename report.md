@@ -35,7 +35,7 @@ Deniz Opal (Istanbul, TR), Alexandre Z. Chohfi (São Paulo, BR)
 
 Table1:Most	active	contributors	in	trems	of	number	of	commits
 | Contributor | Commits | LOC++ | LOC-- | Active during |
-|:---|----|----|----|----|
+|:---|--------|
 | Tom Spilman | 1,772 |	701,065 |	321,854	| 2011-present |
 | Dean Ellis | 439 | 53,504 |	29,368 | 2011-present |
 | Harry	| 398 |	43,394 |	46,065 |	2014-present |
