@@ -24,16 +24,16 @@ Steve Williams
 Tom Spilman
 
 > Developers：
-Steve Williams,  Tom Spilman, Dean Ellis, Marko Jeremic
+> Steve Williams,  Tom Spilman, Dean Ellis, Marko Jeremic
 
 > Developer Emeriti：
-José Antonio Leal de Farias, Dominique Louis, Kenneth Pouncey, Andrea Magnorsky, Jacob Anderson
+> José Antonio Leal de Farias, Dominique Louis, Kenneth Pouncey, Andrea Magnorsky, Jacob Anderson
 
 > Evangelists：
-Dominique Louis (London, UK), Andrea Magnorsky (Dublin, IE), Bill Reiss (Tampa, US), Shmuel Englard (New Jersey, US), 
-Kowsheek Mahmood (Toronto, CA), Chris Foster (Tucson, US), Hüseyin Uslu (Ankara, TR), Giovanni Colì (Apulia, IT), 
-Joe Stead (York, UK), Randolph Burt (Kent, UK), Tomáš Slavíček (Prague, CZ), Artem Veselovsky (Lviv, UA), 
-Deniz Opal (Istanbul, TR), Alexandre Z. Chohfi (São Paulo, BR)
+> Dominique Louis (London, UK), Andrea Magnorsky (Dublin, IE), Bill Reiss (Tampa, US), Shmuel Englard (New Jersey, US), 
+> Kowsheek Mahmood (Toronto, CA), Chris Foster (Tucson, US), Hüseyin Uslu (Ankara, TR), Giovanni Colì (Apulia, IT), 
+> Joe Stead (York, UK), Randolph Burt (Kent, UK), Tomáš Slavíček (Prague, CZ), Artem Veselovsky (Lviv, UA), 
+> Deniz Opal (Istanbul, TR), Alexandre Z. Chohfi (São Paulo, BR)
 
 Table1:Most	active	contributors	in	trems	of	number	of	commits
 
@@ -51,6 +51,7 @@ Table1:Most	active	contributors	in	trems	of	number	of	commits
  Yuri Roubinski	| 220 |	13,603	| 7,283 | 2012-2015 
 
 ![power interest](stakeholder.png)
+
 Figure 1: Power Interest Graph of Monogame
 
 ## Context view
