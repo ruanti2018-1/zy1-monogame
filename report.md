@@ -5,8 +5,9 @@
 ## Abstract
 
 ## Table of contents
--[Introduction](#Introduction)
--[Stakeholders](#Stakeholders)
+- [Introduction](#Introduction)
+
+- [Stakeholders](#Stakeholders)
 
 ## Introduction
 
