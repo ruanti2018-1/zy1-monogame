@@ -1,6 +1,6 @@
  MONOGAME 
 ========== 
-- One Framework For Creating Powerful Cross-platform Games
+# One Framework For Creating Powerful Cross-platform Games
 -------------
 ![monogame-logo](https://raw.githubusercontent.com/MonoGame/MonoGame.Logo/master/FullColorOnLight/SquareLogo_128px.png)
 
@@ -36,8 +36,8 @@ Joe Stead (York, UK), Randolph Burt (Kent, UK), Tomáš Slavíček (Prague, CZ),
 Deniz Opal (Istanbul, TR), Alexandre Z. Chohfi (São Paulo, BR)
 
 Table1:Most	active	contributors	in	trems	of	number	of	commits
-| Contributor | Commits | LOC++ | LOC-- | Active during |
-|:---|--------|
+ Contributor | Commits | LOC++ | LOC-- | Active during 
+----|----|----|----|----
 | Tom Spilman | 1,772 |	701,065 |	321,854	| 2011-present |
 | Dean Ellis | 439 | 53,504 |	29,368 | 2011-present |
 | Harry	| 398 |	43,394 |	46,065 |	2014-present |
