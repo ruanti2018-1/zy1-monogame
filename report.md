@@ -140,5 +140,18 @@ MonoGame updates their current version number according to the semantic versioni
 The first type has only occurred three times in the history of MonoGame. The latter on the other hand, has an average frequency between 1-2 years. Figure 5 give an overview of the different release and mentions the changes with the largest magnitude of change.
 
 ## Architecture
+Source code architecture
+Firstly, we’d like to show the structure of source code of Monogame, which is the first step for us , to get more familiar to the functions and more detailed structures of Monogame.
+The following graph represents the file structure of Monogame source code:
+
+Pic 1.File structure
+
+You can see from the picture that, the source code can be roughly divided into three parts: the code files for platforms (like Android, iOS, web, Mac), code files for components (components for drawing, as we know that Monogame is developed for game developing), and code files for functions (maybe it will be ok to call it operate components).
+
+Developing flow:
+You can easily get to know about the steps with the following flow chart:
+
+Pic 2. Developing flow
+At the beginning, you have to set the environment before starting your code-writing. After deciding your platforms and IDE, you can choose to download Monogame. Then, it will be convenient to develop your own projects with the help of MonoGame website:www.monogame.net/about/
 
 ## Earlier decisions
