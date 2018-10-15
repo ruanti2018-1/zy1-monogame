@@ -70,7 +70,11 @@ Stand alone installer for the MonoGame Pipeline Tool for Mac (requires Mono)
 
 ## Evolve View(Change Log for latest Three Years)
 
-This section analyses the evolution of the Monogame Framework. The evolution perspective focuses on identifying the abi
+This section analyses the evolution of the Monogame Framework. The evolution perspective focuses on identifying the ability to be flexible in the face of inevitable change. As discussed by Rozanski and Woods, a flexible system should be able to deal with all possible types of changes that it may experience during its lifetime. Therefore, the changes throughout the lifetime of the project are analyses, and the mechanisms in place to provide flexibility are discussed.
+
+MonoGame updates their current version number according to the semantic versioning convention. Most MonoGame releases can be categorised into two main categories: major updates that symbolize a new backwards compatibility baseline, and new versions containing novel features and bug fixes. The first one corresponds to the major indicator in the semantic version convension, the latter corresponds to the minor type. There might also be a version number that represents a patch, which is incremented by small bug fixes that are merged into the Master branch.
+
+The first type has only occurred three times in the history of MonoGame. The latter on the other hand, has an average frequency between 1-2 years. Figure 5 give an overview of the different release and mentions the changes with the largest magnitude of change.
 
 ### 3.6 Release - 2/28/2017
 - Fixed XML deserialization of Curve type. #5494
