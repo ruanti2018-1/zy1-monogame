@@ -151,9 +151,10 @@ Pic 1.File structure
 You can see from the picture that, the source code can be roughly divided into three parts: the code files for platforms (like Android, iOS, web, Mac), code files for components (components for drawing, as we know that Monogame is developed for game developing), and code files for functions (maybe it will be ok to call it operate components).
 
 - Here are the details of monogame's source code structure.
-![source code structure](Source code structure.png)
-![code detail](Source code detail.png)
-The above gragh shows the soource and division which are listed as follows:
+![source code structure](https://github.com/ruanti2018-1/zy1-monogame/blob/master/Source%20code%20structure.png)
+![code detail](https://github.com/ruanti2018-1/zy1-monogame/blob/master/Source%20code%20detail.png)
+
+- The above gragh shows the soource and division which are listed as follows:
 >The game framework is found in MonoGame.Framework. 
 >The content pipeline is located in MonoGame.Framework.Content.Pipeline. 
 >The MonoDevelop addin is in IDE/MonoDevelop. 
