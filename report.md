@@ -22,23 +22,23 @@ We will describe a number of different	types of stakeholders exist as defined by
 and relate our views of the classes in relation to the monogame project. 
 In early 2014 stewardship of the MonoGame project was handed off to Tom Spilman and Steve Williams who currently lead the project.
 
-> Project Leads：
+- Project Leads：
 Steve Williams
 Tom Spilman
 
-> Developers：
+- Developers：
 > Steve Williams,  Tom Spilman, Dean Ellis, Marko Jeremic
 
-> Developer Emeriti：
+- Developer Emeriti：
 > José Antonio Leal de Farias, Dominique Louis, Kenneth Pouncey, Andrea Magnorsky, Jacob Anderson
 
-> Evangelists：
+- Evangelists：
 > Dominique Louis (London, UK), Andrea Magnorsky (Dublin, IE), Bill Reiss (Tampa, US), Shmuel Englard (New Jersey, US), 
 > Kowsheek Mahmood (Toronto, CA), Chris Foster (Tucson, US), Hüseyin Uslu (Ankara, TR), Giovanni Colì (Apulia, IT), 
 > Joe Stead (York, UK), Randolph Burt (Kent, UK), Tomáš Slavíček (Prague, CZ), Artem Veselovsky (Lviv, UA), 
 > Deniz Opal (Istanbul, TR), Alexandre Z. Chohfi (São Paulo, BR)
 
-> Users：
+- Users：
 >
 > The major user of Monogame is individual developers. Their concrete names are hard to find. There are some prominent productions such as Stardewvalley, Pumpkin Games, Apotheon.etc
 
@@ -154,16 +154,16 @@ You can see from the picture that, the source code can be roughly divided into t
 ![source code structure](https://github.com/ruanti2018-1/zy1-monogame/blob/master/Source%20code%20structure.png)
 ![code detail](https://github.com/ruanti2018-1/zy1-monogame/blob/master/Source%20code%20detail.png)
 
-- The above gragh shows the soource and division which are listed as follows:
-> The game framework is found in MonoGame.Framework. 
-> The content pipeline is located in MonoGame.Framework.Content.Pipeline. 
-> The MonoDevelop addin is in IDE/MonoDevelop. 
-> The Visual Studio templates are in ProjectTemplates.
-> NuGet packages are located in NuGetPackages.
-> See Test for the pipeline and framework unit tests. 
-> Tools/MGCB is the command line tool for content processing. 
-> Tools/2MGFX is the command line effect compiler tool. 
-> The Tools/Pipeline tool is a GUI frontend for content processing. 
+The above gragh shows the soource and division which are listed as follows:
+- The game framework is found in MonoGame.Framework. 
+- The content pipeline is located in MonoGame.Framework.Content.Pipeline. 
+- The MonoDevelop addin is in IDE/MonoDevelop. 
+- The Visual Studio templates are in ProjectTemplates.
+- NuGet packages are located in NuGetPackages.
+- See Test for the pipeline and framework unit tests. 
+- Tools/MGCB is the command line tool for content processing. 
+- Tools/2MGFX is the command line effect compiler tool. 
+- The Tools/Pipeline tool is a GUI frontend for content processing. 
 
 ### Developing flow
 You can easily get to know about the steps with the following flow chart:
