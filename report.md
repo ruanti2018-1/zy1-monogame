@@ -140,7 +140,7 @@ MonoGame updates their current version number according to the semantic versioni
 The first type has only occurred three times in the history of MonoGame. The latter on the other hand, has an average frequency between 1-2 years. Figure 5 give an overview of the different release and mentions the changes with the largest magnitude of change.
 
 ## Architecture
-Source code architecture
+### Source code architecture
 Firstly, we’d like to show the structure of source code of Monogame, which is the first step for us , to get more familiar to the functions and more detailed structures of Monogame.
 The following graph represents the file structure of Monogame source code:
 
@@ -149,11 +149,26 @@ Pic 1.File structure
 
 You can see from the picture that, the source code can be roughly divided into three parts: the code files for platforms (like Android, iOS, web, Mac), code files for components (components for drawing, as we know that Monogame is developed for game developing), and code files for functions (maybe it will be ok to call it operate components).
 
-Developing flow:
+- Here are the details of monogame's source code structure.
+![source code structure](Source code structure.png)
+![code detail](Source code detail.png)
+The above gragh shows the soource and division which are listed as follows:
+>The game framework is found in MonoGame.Framework. 
+The content pipeline is located in MonoGame.Framework.Content.Pipeline. 
+The MonoDevelop addin is in IDE/MonoDevelop. 
+The Visual Studio templates are in ProjectTemplates.
+NuGet packages are located in NuGetPackages.
+See Test for the pipeline and framework unit tests. 
+Tools/MGCB is the command line tool for content processing. 
+Tools/2MGFX is the command line effect compiler tool. 
+The Tools/Pipeline tool is a GUI frontend for content processing. 
+
+### Developing flow:
 You can easily get to know about the steps with the following flow chart:
 
 ![Developing flow chart](https://github.com/ruanti2018-1/zy1-monogame/blob/master//Developing.png )
 Pic 2. Developing flow
 At the beginning, you have to set the environment before starting your code-writing. After deciding your platforms and IDE, you can choose to download Monogame. Then, it will be convenient to develop your own projects with the help of MonoGame website:@www.monogame.net/about/
+
 
 ## Earlier decisions
