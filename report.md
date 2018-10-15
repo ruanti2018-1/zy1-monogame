@@ -155,15 +155,15 @@ You can see from the picture that, the source code can be roughly divided into t
 ![code detail](https://github.com/ruanti2018-1/zy1-monogame/blob/master/Source%20code%20detail.png)
 
 - The above gragh shows the soource and division which are listed as follows:
->The game framework is found in MonoGame.Framework. 
->The content pipeline is located in MonoGame.Framework.Content.Pipeline. 
->The MonoDevelop addin is in IDE/MonoDevelop. 
->The Visual Studio templates are in ProjectTemplates.
->NuGet packages are located in NuGetPackages.
->See Test for the pipeline and framework unit tests. 
->Tools/MGCB is the command line tool for content processing. 
->Tools/2MGFX is the command line effect compiler tool. 
->The Tools/Pipeline tool is a GUI frontend for content processing. 
+> The game framework is found in MonoGame.Framework. 
+> The content pipeline is located in MonoGame.Framework.Content.Pipeline. 
+> The MonoDevelop addin is in IDE/MonoDevelop. 
+> The Visual Studio templates are in ProjectTemplates.
+> NuGet packages are located in NuGetPackages.
+> See Test for the pipeline and framework unit tests. 
+> Tools/MGCB is the command line tool for content processing. 
+> Tools/2MGFX is the command line effect compiler tool. 
+> The Tools/Pipeline tool is a GUI frontend for content processing. 
 
 ### Developing flow
 You can easily get to know about the steps with the following flow chart:
