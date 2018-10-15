@@ -96,7 +96,7 @@ Monogame is a widely-used framework to build cross-platform games. As one can im
 - A Githubu repository filled with code, plugins and many issues is used to host the code base
 - Communication and support is provided via Github, Facebook, Tiwtter, YouTube and its own community.
 
-![external links](external links.png)
+![external links](https://github.com/ruanti2018-1/zy1-monogame/blob/master/external%20links.png)
 Figure 2: Shows external links to several useful reference sites related to Monogame. 
 
 #### System Requirements
