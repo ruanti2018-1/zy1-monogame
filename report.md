@@ -214,17 +214,22 @@ At the beginning, you have to set the environment before starting your code-writ
 
 ## Earlier decisions
 1.Will the system run on one processor or be distributed across multiple processors?
+
 The system will across multiple processor.
 
 2.Will the software be layered? If so, how many layers will there be? What will each one do?
+
 It will.
 Basic support layer; compound component layer; user-oriented integrated API layer.
 
 3.Will components communicate synchronously or asynchronously? Will they interact by transfering control or data or both?
+
 The components will communicate asynchronously. They will interact by transfering data.
 
 4.Will the system depend on specific features of the operating system or hardware?
+
 The system doesndepends on specific features of the hardware.
 
 5.Will the information that flows through the system be encrypted or not?
+
 The information that flows through the system will not be encrypted.
