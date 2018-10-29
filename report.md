@@ -20,27 +20,8 @@ Monogame is a cross-platform, hardware accelerated API providing graphics, audio
 
 #### 1.What is the monogame
 
-MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow people to make great games using a simple API. The currently supported platforms are as follows.
-
->Desktop PCs
-Windows 10 Store Apps (UWP)
-Windows Win32 (OpenGL & DirectX)
-Linux (OpenGL)
-Mac OS X (OpenGL)
-Mobile/Tablet Devices
-Android (OpenGL)
-iPhone/iPad (OpenGL)
-Windows Phone 10
-Television
-tvOS
-
+MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow people to make great games using a simple API.
 MonoGame also supports a number of Game Consoles. The templates and source for these platforms are not publicly availalbe. However they are available to developers registered with the appropriate developer programs.
-
->Consoles (for registered developers)
-PlayStation 4 (Sony)
-PlayStation Vita (Sony)
-Xbox One (both UWP and XDK) (id@xbox)
-Nintendo Switch (Nintendo)
 
 #### 2.History
 
@@ -227,11 +208,11 @@ The currently supported platforms are as follows.
 
 ### System Requirements
 This section will give you an overview of minimal system requirements for developing and running MonoGame Applications.
-##### Development
+#### Development
 * Windows - 
 * Linux - 1 GB Ram
 * Mac - 
-##### Running MonoGame Application on specific Platform
+#### Running MonoGame Application on specific Platform
 * WindowsDX - DirectX 9.0c capable gpu
 * WindowsGL - 
 * Linux - 512 MB Ram
@@ -242,11 +223,11 @@ This section will give you an overview of minimal system requirements for develo
 
 ### Setting Up Monogame
 This section will help you setup MonoGame on Platform of your choice.
-##### Windows
+#### **Windows**
 * Visual Studio is an IDE used to develop applications in, among other languages, C#. C# is the most common language used in MonoGame development.
-##### Mac
+#### **Mac**
 * Make sure you install mono and Visual Studio for Mac first so that MonoGame can correctly setup the project templates and addins.
-##### Linux
+#### **Linux**
 * The following packages are needed for the MonoGame Applications to run on Linux:
    * libopenal-dev
    * mono-runtime
