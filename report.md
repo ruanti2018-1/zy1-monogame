@@ -171,20 +171,20 @@ In order to realize the aim, Monogame had better take XNA as cornerstone, which 
 ![EarliestDecision](https://github.com/ruanti2018-1/zy1-monogame/blob/master//EarliestDecision.png)
 
 1.Will the system run on one processor or be distributed across multiple processors?
-The system will across multiple processor.
+- The system will across multiple processor.
 
 2.Will the software be layered? If so, how many layers will there be? What will each one do?
-It will.
+- It will.
 Basic support layer; compound component layer; user-oriented integrated API layer.
 
 3.Will components communicate synchronously or asynchronously? Will they interact by transfering control or data or both?
-The components will communicate asynchronously. They will interact by transfering data.
+- The components will communicate asynchronously. They will interact by transfering data.
 
 4.Will the system depend on specific features of the operating system or hardware?
-The system doesndepends on specific features of the hardware.
+- The system doesndepends on specific features of the hardware.
 
 5.Will the information that flows through the system be encrypted or not?
-The information that flows through the system will not be encrypted.
+- The information that flows through the system will not be encrypted.
 
 ## Deployment view
 
@@ -223,11 +223,11 @@ This section will give you an overview of minimal system requirements for develo
 
 ### Setting Up Monogame
 This section will help you setup MonoGame on Platform of your choice.
-#### **Windows**
+#### Windows
 * Visual Studio is an IDE used to develop applications in, among other languages, C#. C# is the most common language used in MonoGame development.
-#### **Mac**
+#### Mac
 * Make sure you install mono and Visual Studio for Mac first so that MonoGame can correctly setup the project templates and addins.
-#### **Linux**
+#### Linux
 * The following packages are needed for the MonoGame Applications to run on Linux:
    * libopenal-dev
    * mono-runtime
