@@ -15,6 +15,7 @@ Monogame is a cross-platform, hardware accelerated API providing graphics, audio
 - [Context view](#context-view)
 - [Architecture](#architecture)
 - [Earlier decisions](#earlier-decisions)
+- [Deployment view](#deployment-view)
 ## Introduction
 
 #### 1.What is the monogame
@@ -219,7 +220,7 @@ In order to realize the aim, Monogame had better take XNA as cornerstone, which 
 
 
 
-## ![EarliestDecision](/Users/Haoyu/Documents/zy1-monogame/EarliestDecision.png)
+![EarliestDecision](/Users/Haoyu/Documents/zy1-monogame/EarliestDecision.png)
 
 1.Will the system run on one processor or be distributed across multiple processors?
 
@@ -241,3 +242,49 @@ The system doesndepends on specific features of the hardware.
 5.Will the information that flows through the system be encrypted or not?
 
 The information that flows through the system will not be encrypted.
+
+## Deployment view
+
+According to Rozanski and Woods, the deployment view describes the environment into which the system will be deployed, including the dependencies the system has on its runtime environment.
+
+### Operating System
+MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework, it is an open source spiritual successor to XNA, now supports over 10 platforms including UWP.
+The currently supported platforms are as follows.
+* Desktop PCs 
+** Windows 10 Store Apps (UWP)
+** Windows Win32 (OpenGL & DirectX)
+** Linux (OpenGL)
+** Mac OS X (OpenGL)
+
+* Mobile/Tablet Devices 
+** Android (OpenGL)
+** iPhone/iPad (OpenGL)
+** Windows Phone 10
+** Television
+** tvOS
+
+### System Requirements
+This section will give you an overview of minimal system requirements for developing and running MonoGame Applications.
+#### Development
+* Windows - 
+* Linux - 1 GB Ram
+* Mac - 
+#### Running MonoGame Application on specific Platform
+* WindowsDX - DirectX 9.0c capable gpu
+* WindowsGL - 
+* Linux - 512 MB Ram
+* Mac -
+* Android - Android 4.2 or higher
+* iOS -
+* Windows Phone - Windows Phone 10
+
+### Setting Up Monogame
+This section will help you setup MonoGame on Platform of your choice.
+*  Windows
+Visual Studio is an IDE used to develop applications in, among other languages, C#. C# is the most common language used in MonoGame development.
+* Mac
+Make sure you install mono and Visual Studio for Mac first so that MonoGame can correctly setup the project templates and addins.
+* Linux
+The following packages are needed for the MonoGame Applications to run on Linux:
+libopenal-dev
+mono-runtime
