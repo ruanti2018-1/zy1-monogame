@@ -251,17 +251,19 @@ According to Rozanski and Woods, the deployment view describes the environment i
 MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework, it is an open source spiritual successor to XNA, now supports over 10 platforms including UWP.
 The currently supported platforms are as follows.
 * Desktop PCs 
-** Windows 10 Store Apps (UWP)
-** Windows Win32 (OpenGL & DirectX)
-** Linux (OpenGL)
-** Mac OS X (OpenGL)
+   
+* Windows 10 Store Apps (UWP)
+* Windows Win32 (OpenGL & DirectX)
+* Linux (OpenGL)
+* Mac OS X (OpenGL)
 
 * Mobile/Tablet Devices 
-** Android (OpenGL)
-** iPhone/iPad (OpenGL)
-** Windows Phone 10
-** Television
-** tvOS
+   
+* Android (OpenGL)
+* iPhone/iPad (OpenGL)
+* Windows Phone 10
+* Television
+* tvOS
 
 ### System Requirements
 This section will give you an overview of minimal system requirements for developing and running MonoGame Applications.
@@ -281,10 +283,10 @@ This section will give you an overview of minimal system requirements for develo
 ### Setting Up Monogame
 This section will help you setup MonoGame on Platform of your choice.
 *  Windows
-Visual Studio is an IDE used to develop applications in, among other languages, C#. C# is the most common language used in MonoGame development.
+> Visual Studio is an IDE used to develop applications in, among other languages, C#. C# is the most common language used in MonoGame development.
 * Mac
-Make sure you install mono and Visual Studio for Mac first so that MonoGame can correctly setup the project templates and addins.
+> Make sure you install mono and Visual Studio for Mac first so that MonoGame can correctly setup the project templates and addins.
 * Linux
-The following packages are needed for the MonoGame Applications to run on Linux:
-libopenal-dev
-mono-runtime
+> The following packages are needed for the MonoGame Applications to run on Linux:
+>> libopenal-dev
+>> mono-runtime
