@@ -253,5 +253,5 @@ This section will help you setup MonoGame on Platform of your choice.
 * Make sure you install mono and Visual Studio for Mac first so that MonoGame can correctly setup the project templates and addins.
 ##### Linux
 * The following packages are needed for the MonoGame Applications to run on Linux:
-*libopenal-dev*
-*mono-runtime*
+   * libopenal-dev
+   * mono-runtime
