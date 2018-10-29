@@ -169,7 +169,7 @@ In order to realize the aim, Monogame had better take XNA as cornerstone, which 
 
 
 ![EarliestDecision](https://github.com/ruanti2018-1/zy1-monogame/blob/master//EarliestDecision.png)
-
+#### Q&A
 1.Will the system run on one processor or be distributed across multiple processors?
 - The system will across multiple processor.
 
