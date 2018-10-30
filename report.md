@@ -107,6 +107,8 @@ All the code is available to programmer ensuring them'll have the ability to mak
 
 With 1000s of shipped games we have built up a vibrant community of developers which use MonoGame for both fun and profit.
 
+![ContextView](/Users/Haoyu/Documents/zy1-monogame/ContextView.png)
+
 #### External entities and interfaces
 
 Monogame is a widely-used framework to build cross-platform games. As one can imagine, a software project like this cannot be developed without external libraries, tools and frameworks. On the other hand, many companies cannot develop their game without Monogame. These external relations are examined in this section. Below, these are elaborated upon.
