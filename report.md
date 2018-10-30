@@ -37,6 +37,8 @@ Microsoft Studios published several titles using MonoGame in 2013 on Windows 8 a
 
 In early 2014 stewardship of the MonoGame project was handed off to Tom Spilman and Steve Williams who currently lead the project.
 
+![histroy](https://github.com/ruanti2018-1/zy1-monogame/blob/master/history.png)
+
 ## Stakeholders
 We will describe a number of different	types of stakeholders exist as defined by Rozanski & Woods [1] 
 and relate our views of the classes in relation to the monogame project. 
