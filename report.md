@@ -13,7 +13,7 @@ Monogame is a cross-platform, hardware accelerated API providing graphics, audio
 - [Introduction](#introduction)
 - [Stakeholders](#stakeholders)
 - [Context view](#context-view)
-- [Architecture](#architecture)
+- [Development view](#development-view)
 - [Earlier decisions](#earlier-decisions)
 - [Deployment view](#deployment-view)
 ## Introduction
@@ -129,7 +129,7 @@ MonoGame updates their current version number according to the semantic versioni
 
 The first type has only occurred three times in the history of MonoGame. The latter on the other hand, has an average frequency between 1-2 years. Figure 5 give an overview of the different release and mentions the changes with the largest magnitude of change.
 
-## Architecture
+## Development view
 ### Source code architecture
 Firstly, we’d like to show the structure of source code of Monogame, which is the first step for us , to get more familiar to the functions and more detailed structures of Monogame.
 The following graph represents the file structure of Monogame source code:
@@ -160,6 +160,10 @@ You can easily get to know about the steps with the following flow chart:
 ![Developing flow chart](https://github.com/ruanti2018-1/zy1-monogame/blob/master//Developing.png )
 Pic 2. Developing flow
 At the beginning, you have to set the environment before starting your code-writing. After deciding your platforms and IDE, you can choose to download Monogame. Then, it will be convenient to develop your own projects with the help of MonoGame website:@www.monogame.net/about/
+
+### Standardization of design
+Since Monogame 	is	an	open	source	platform,	everyone	is	free	to	contribute	to	the	repository	on GitHub.	Seeing	as	multiple	contributors	are	influencing	Monogame,	the	core	developers	have standardised	aspects	of	the	design	of	the	system	to	make	it	as	maintainable,	reliable	and technically	cohesive	as	possible.
+
 
 ## Earlier decisions
 Software architecture is a manifestation of the earliest design decisions about a system. These early bindings carry enormous weight with respect to the system’s remaining development, its deployment, and its maintenance life. 
