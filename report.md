@@ -289,7 +289,7 @@ This section will help you setup MonoGame on Platform of your choice.
    * libopenal-dev
    * mono-runtime
    
-###Pipeline  
+### Pipeline  
 The MonoGame Pipeline Tool (Pipeline.exe) is the front-end GUI editor for MonoGame content builder projects.
 
 ![Pipeline Tool](http://www.monogame.net/docs/html/images/pipeline.png)
