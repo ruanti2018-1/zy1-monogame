@@ -135,6 +135,8 @@ MonoGame updates their current version number according to the semantic versioni
 
 The first type has only occurred three times in the history of MonoGame. The latter on the other hand, has an average frequency between 1-2 years. Figure 5 give an overview of the different release and mentions the changes with the largest magnitude of change.
 
+![EvolutionView](./EvolutionView.png)
+
 ## Development view
 
 ### Source code architecture
