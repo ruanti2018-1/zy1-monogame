@@ -14,6 +14,7 @@ Monogame is a cross-platform, hardware accelerated API providing graphics, audio
 - [Introduction](#introduction)
 - [Stakeholders](#stakeholders)
 - [Context view](#context-view)
+- [Evolution view](#evolution-view)
 - [Development view](#development-view)
 - [Earlier decisions](#earlier-decisions)
 - [Deployment view](#deployment-view)
@@ -171,7 +172,7 @@ At the beginning, you have to set the environment before starting your code-writ
 
 Since Monogame 	is	an	open	source	platform,	everyone	is	free	to	contribute	to	the	repository	on GitHub.	Seeing	as	multiple	contributors	are	influencing	Monogame,	the	core	developers	have standardised	aspects	of	the	design	of	the	system	to	make	it	as	maintainable,	reliable	and technically	cohesive	as	possible.
 
-A group of hundreds of volunteers have helped build MonoGame since 2009.  To organize these efforts the MonoGame Team has written a simple guide to help you, they are discussed in the [CONTRIBUTING.MD](https://github.com/MonoGame/MonoGame/blob/develop/CONTRIBUTING.md)file:
+A group of hundreds of volunteers have helped build MonoGame since 2009.  To organize these efforts the MonoGame Team has written a simple guide to help you, they are discussed in the [CONTRIBUTING.MD](https://github.com/MonoGame/MonoGame/blob/develop/CONTRIBUTING.md) file:
 
 #### How To Contribute
 
