@@ -6,6 +6,7 @@
 -------------
 
 ## Abstract
+
 Monogame is a cross-platform, hardware accelerated API providing graphics, audio, game state management, input, and a content pipeline for importing assets. Unlike most game engines, monogame does not provide or impose any pattern or project structure. While this means that developers are free to organize their code as they like, it also means that a bit of setup code is needed when first starting a new project. The open source project started from 2009, created by an active member of the XNA community with the goal of porting simple 2D XNA games to mobile devices. In early 2014 stewardship of the MonoGame project was handed off to Tom Spilman and Steve Williams who currently lead the project. Now it contains 11,910 commits, has released 13 times and 251 different contributors have helped to perfect the monogame. By using MonoGame and targeting the UWP platform you’ll be able to create 2d and 3d games for hundreds of millions of Windows 10 PCs and the whole Xbox One family, including the upcoming Project Scorpio. This	chapter	studies Monogame	by	looking	at	its	architecture,	and	by	looking	at	the	system	through	different viewpoints	and	perspectives.
 
 
@@ -16,6 +17,7 @@ Monogame is a cross-platform, hardware accelerated API providing graphics, audio
 - [Development view](#development-view)
 - [Earlier decisions](#earlier-decisions)
 - [Deployment view](#deployment-view)
+
 ## Introduction
 
 #### 1.What is the monogame
@@ -40,6 +42,7 @@ In early 2014 stewardship of the MonoGame project was handed off to Tom Spilman 
 ![histroy](https://github.com/ruanti2018-1/zy1-monogame/blob/master/history.png)
 
 ## Stakeholders
+
 We will describe a number of different	types of stakeholders exist as defined by Rozanski & Woods [1] 
 and relate our views of the classes in relation to the monogame project. 
 In early 2014 stewardship of the MonoGame project was handed off to Tom Spilman and Steve Williams who currently lead the project.
@@ -130,7 +133,9 @@ MonoGame updates their current version number according to the semantic versioni
 The first type has only occurred three times in the history of MonoGame. The latter on the other hand, has an average frequency between 1-2 years. Figure 5 give an overview of the different release and mentions the changes with the largest magnitude of change.
 
 ## Development view
+
 ### Source code architecture
+
 Firstly, we’d like to show the structure of source code of Monogame, which is the first step for us , to get more familiar to the functions and more detailed structures of Monogame.
 The following graph represents the file structure of Monogame source code:
 
@@ -155,6 +160,7 @@ The above gragh shows the soource and division which are listed as follows:
 - The Tools/Pipeline tool is a GUI frontend for content processing. 
 
 ### Developing flow
+
 You can easily get to know about the steps with the following flow chart:
 
 ![Developing flow chart](https://github.com/ruanti2018-1/zy1-monogame/blob/master//Developing.png )
@@ -162,20 +168,61 @@ Pic 2. Developing flow
 At the beginning, you have to set the environment before starting your code-writing. After deciding your platforms and IDE, you can choose to download Monogame. Then, it will be convenient to develop your own projects with the help of MonoGame website:@www.monogame.net/about/
 
 ### Standardization of design
+
 Since Monogame 	is	an	open	source	platform,	everyone	is	free	to	contribute	to	the	repository	on GitHub.	Seeing	as	multiple	contributors	are	influencing	Monogame,	the	core	developers	have standardised	aspects	of	the	design	of	the	system	to	make	it	as	maintainable,	reliable	and technically	cohesive	as	possible.
 
+A group of hundreds of volunteers have helped build MonoGame since 2009.  To organize these efforts the MonoGame Team has written a simple guide to help you, they are discussed in the [CONTRIBUTING.MD](https://github.com/MonoGame/MonoGame/blob/develop/CONTRIBUTING.md)file:
+
+#### How To Contribute
+
+MonoGame has a `master` branch for stable releases and a `develop` branch for daily development.  New features and fixes are always submitted to the `develop` branch.
+
+There are ways to help contributers who want to start the project [Help Wanted tasks](https://github.com/mono/MonoGame/issues?q=is%3Aissue+is%3Aopen+label%3A%22Help+Wanted%22).  Monogame team is supposed to know if you plan to work on an issue so that others are not duplicating work.
+
+The MonoGame project follows standard [GitHub flow](https://guides.github.com/introduction/flow/index.html).  Developers should learn and be familiar with how to [use Git](https://help.github.com/articles/set-up-git/), how to [create a fork of MonoGame](https://help.github.com/articles/fork-a-repo/), and how to [submit a Pull Request](https://help.github.com/articles/using-pull-requests/).
+
+After developers submit a PR the [MonoGame build server](http://teamcity.monogame.net/?guest=1) will build their changes and verify all tests pass.  Project maintainers and contributors will review their changes and provide constructive feedback to improve the submission.
+Once satisfied that changes are good for MonoGame the team will merge it.
+
+#### Quick Guidelines
+
+Here are a few simple rules and suggestions to remember when contributing to MonoGame.
+
+* :bangbang: **NEVER** commit code that you didn't personally write.
+* :bangbang: **NEVER** use decompiler tools to steal code and submit them as your own work.
+* :bangbang: **NEVER** decompile XNA assemblies and steal Microsoft's copyrighted code.
+* **PLEASE** try keep your PRs focused on a single topic and of a reasonable size or we may ask you to break it up.
+* **PLEASE** be sure to write simple and descriptive commit messages.
+* **DO NOT** surprise us with new APIs or big new features. Open an issue to discuss your ideas first.
+* **DO NOT** reorder type members as it makes it difficult to compare code changes in a PR.
+* **DO** try to follow our [coding style](CODESTYLE.md) for new code.
+* **DO** give priority to the existing style of the file you're changing.
+* **DO** try to add to our [unit tests](Test) when adding new features or fixing bugs.
+* **DO NOT** send PRs for code style changes or make code changes just for the sake of style.
+* **PLEASE** keep a civil and respectful tone when discussing and reviewing contributions.
+* **PLEASE** tell others about MonoGame and your contributions via social media.
+
+#### Decompiler Tools
+
+Monogame prohibits tools like dotPeek, ILSpy, JustDecompiler, or .NET Reflector which convert compiled assemblies into readable code.
+It is **NEVER ACCEPTABLE** to decompile copyrighted assemblies and submit that code to the MonoGame project.
+
+#### Licensing
+
+The MonoGame project is under the [Microsoft Public License](https://opensource.org/licenses/MS-PL) except for a few portions of the code.  See the [LICENSE.txt](LICENSE.txt) file for more details.  Third-party libraries used by MonoGame are under their own licenses.  Please refer to those libraries for details on the license they use.
 
 ## Earlier decisions
+
 Software architecture is a manifestation of the earliest design decisions about a system. These early bindings carry enormous weight with respect to the system’s remaining development, its deployment, and its maintenance life. 
 
 As for MonoGame, we attch great significance to its initial intention, "MonoGame Framework simplifies game developing greatly".  And we surround this idea to simulate the process of making ealier decisions.
 
 In order to realize the aim, Monogame had better take XNA as cornerstone, which is an renowned open source method. XNA is intended for writing once and running everywhere, so just a small piece of code needs to be modified to run across Windows, Mac OS, Linux, Android and IOS. What's more, based on XNA, MonaGame isn't depended on specific device, providing support for both usual input device such as mouse and keyboard and unusual ones such as XBox360 and other gamePad.
 
-
-
 ![EarliestDecision](https://github.com/ruanti2018-1/zy1-monogame/blob/master//EarliestDecision.png)
+
 #### Q&A
+
 1.Will the system run on one processor or be distributed across multiple processors?
 - The system will across multiple processor.
 
@@ -197,6 +244,7 @@ Basic support layer; compound component layer; user-oriented integrated API laye
 According to Rozanski and Woods, the deployment view describes the environment into which the system will be deployed, including the dependencies the system has on its runtime environment.
 
 ### Operating System
+
 MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework, it is an open source spiritual successor to XNA, now supports over 10 platforms including UWP.
 The currently supported platforms are as follows.
 * Desktop PCs   
@@ -213,7 +261,9 @@ The currently supported platforms are as follows.
    * tvOS
 
 ### System Requirements
+
 This section will give you an overview of minimal system requirements for developing and running MonoGame Applications.
+
 #### Development
 * Windows - 
 * Linux - 1 GB Ram
