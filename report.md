@@ -111,7 +111,7 @@ All the code is available to programmer ensuring them'll have the ability to mak
 
 With 1000s of shipped games we have built up a vibrant community of developers which use MonoGame for both fun and profit.
 
-![ContextView](/Users/Haoyu/Documents/zy1-monogame/ContextView.png)
+![ContextView](./ContextView.png)
 
 #### External entities and interfaces
 
