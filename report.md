@@ -192,6 +192,7 @@ Firstly, we’d like to show the structure of source code of Monogame, which is 
 The following graph represents the file structure of Monogame source code:
 
 ![File structure Graph](https://github.com/ruanti2018-1/zy1-monogame/blob/master/LayerStructure.png)
+
 Figure 5: File structure
 
 You can see from the picture that, the source code can be roughly divided into three parts: the code files for platforms (like Android, iOS, web, Mac), code files for components (components for drawing, as we know that Monogame is developed for game developing), and code files for functions (maybe it will be ok to call it operate components).
@@ -216,7 +217,8 @@ The above gragh shows the soource and division which are listed as follows:
 You can easily get to know about the steps with the following flow chart:
 
 ![Developing flow chart](https://github.com/ruanti2018-1/zy1-monogame/blob/master//Developing.png )
-Figure 8: Developing flow
+Figure 8: Developing flow.
+
 At the beginning, you have to set the environment before starting your code-writing. After deciding your platforms and IDE, you can choose to download Monogame. Then, it will be convenient to develop your own projects with the help of MonoGame website:@www.monogame.net/about/
 
 ### Standardization of design
@@ -294,9 +296,13 @@ Basic support layer; compound component layer; user-oriented integrated API laye
 
 ## Deployment view
 
-According to Rozanski and Woods, the deployment view describes the environment into which the system will be deployed, including the dependencies the system has on its runtime environment.
+According to Rozanski and Woods, the deployment view describes the environment into which the system will be deployed, including the dependencies the system has on its runtime environment. It defines physical, computational, and software-based requirements for running the system.
 
+First of all, Monogame is an open source implementation of the Microsoft XNA 4 Framework, and thus if you want to setup Monogame on your platform, there are several chioces.
+For *Windows* users, you will need an IDE to develop MonoGame applications, the most common on Windows is Visual Studio. Visual Studio is an IDE used to develop applications in, among other languages, C#. C# is the most common language used in MonoGame development.
+However, developing on the *Mac* requires a number of other frameworks and applications. To get started you can use the Linux or DesktopGL platforms which will run quite happily on MacOS providing you have mono installed. You will also need Visual Studio for Mac.
 
+Aside from the memory required to install Monogame in the first place, no other hardware requirements for using Monogame are mentioned anywhere. Monogame requires around 512 Mb(on Linux) of storage space to be installed.
    
 ### Pipeline  
 The MonoGame Pipeline Tool (Pipeline.exe) is the front-end GUI editor for MonoGame content builder projects.
