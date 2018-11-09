@@ -91,27 +91,73 @@ Figure 1: Power Interest Graph of Monogame
 
 The context view describes the relationships, dependencies, and interactions between the system and its environment(the people, systems, and external entities with which it interacts). This section examines Monogame's scope, its dependencies on others and the interaction with other parties.
 
-#### System scope & Responsibilities
+### System scope & Responsibilities
 
 MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow XNA developers on Xbox 360, Windows & Windows Phone to port their games to the iOS, Android, Mac OS X, Linux and Windows 8/10.As well as PlayStation Vita, Xbox One and PlayStation 4. As a pioneer of framworks for creating cross-platform games, MonoGame possesses 4 prominent advantages. 
 
-##### Managed Code 
+#### Managed Code 
 
 By leveraging C# and other .NET languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code.
 
-##### Cross-Platform
+#### Cross-Platform
 
 Monogame currently supports iOS, Android, MacOS, Linux, all Windows platforms, PS4, PSVita, Xbox One, and Switch with more platforms on the way.
 
-##### Open-Source
+#### Open-Source
 
 All the code is available to programmer ensuring them'll have the ability to make changes when they need to or even port to whole new platforms.
 
-##### Community
+#### Community
 
 With 1000s of shipped games we have built up a vibrant community of developers which use MonoGame for both fun and profit.
 
+### Operating System
+
+MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework, it is an open source spiritual successor to XNA, now supports over 10 platforms including UWP.
+The currently supported platforms are as follows.
+* Desktop PCs   
+   * Windows 10 Store Apps (UWP)
+   * Windows Win32 (OpenGL & DirectX)
+   * Linux (OpenGL)
+   * Mac OS X (OpenGL)
+
+* Mobile/Tablet Devices   
+   * Android (OpenGL)
+   * iPhone/iPad (OpenGL)
+   * Windows Phone 10
+   * Television
+   * tvOS
+
+### System Requirements
+
+This section will give you an overview of minimal system requirements for developing and running MonoGame Applications.
+
+#### Development
+* Windows - 
+* Linux - 1 GB Ram
+* Mac - 
+#### Running MonoGame Application on specific Platform
+* WindowsDX - DirectX 9.0c capable gpu
+* WindowsGL - 
+* Linux - 512 MB Ram
+* Mac -
+* Android - Android 4.2 or higher
+* iOS -
+* Windows Phone - Windows Phone 10
+
+### Setting Up Monogame
+This section will help you setup MonoGame on Platform of your choice.
+#### Windows
+* Visual Studio is an IDE used to develop applications in, among other languages, C#. C# is the most common language used in MonoGame development.
+#### Mac
+* Make sure you install mono and Visual Studio for Mac first so that MonoGame can correctly setup the project templates and addins.
+#### Linux
+* The following packages are needed for the MonoGame Applications to run on Linux:
+   * libopenal-dev
+   * mono-runtime
+
 ![ContextView](./ContextView.png)
+Figure 2: Context view.
 
 #### External entities and interfaces
 
@@ -125,7 +171,7 @@ Monogame is a widely-used framework to build cross-platform games. As one can im
 - Communication and support is provided via Github, Facebook, Tiwtter, YouTube and its own community.
 
 ![external links](https://github.com/ruanti2018-1/zy1-monogame/blob/master/external%20links.png)
-Figure 2: Shows external links to several useful reference sites related to Monogame. 
+Figure 3: Shows external links to several useful reference sites related to Monogame. 
 
 ## Evolution View
 
@@ -136,6 +182,7 @@ MonoGame updates their current version number according to the semantic versioni
 The first type has only occurred three times in the history of MonoGame. The latter on the other hand, has an average frequency between 1-2 years. Figure 5 give an overview of the different release and mentions the changes with the largest magnitude of change.
 
 ![EvolutionView](./EvolutionView.png)
+Figure 4: Evolution view.
 
 ## Development view
 
@@ -145,11 +192,11 @@ Firstly, we’d like to show the structure of source code of Monogame, which is 
 The following graph represents the file structure of Monogame source code:
 
 ![File structure Graph](https://github.com/ruanti2018-1/zy1-monogame/blob/master/LayerStructure.png)
-Pic 1.File structure
+Figure 5: File structure
 
 You can see from the picture that, the source code can be roughly divided into three parts: the code files for platforms (like Android, iOS, web, Mac), code files for components (components for drawing, as we know that Monogame is developed for game developing), and code files for functions (maybe it will be ok to call it operate components).
 
-- Here are the details of monogame's source code structure.
+- Here are the details of monogame's source code structure.(Figure 6 and 7)
 ![source code structure](https://github.com/ruanti2018-1/zy1-monogame/blob/master/Source%20code%20structure.png)
 ![code detail](https://github.com/ruanti2018-1/zy1-monogame/blob/master/Source%20code%20detail.png)
 
@@ -169,7 +216,7 @@ The above gragh shows the soource and division which are listed as follows:
 You can easily get to know about the steps with the following flow chart:
 
 ![Developing flow chart](https://github.com/ruanti2018-1/zy1-monogame/blob/master//Developing.png )
-Pic 2. Developing flow
+Figure 8: Developing flow
 At the beginning, you have to set the environment before starting your code-writing. After deciding your platforms and IDE, you can choose to download Monogame. Then, it will be convenient to develop your own projects with the help of MonoGame website:@www.monogame.net/about/
 
 ### Standardization of design
@@ -225,6 +272,7 @@ As for MonoGame, we attch great significance to its initial intention, "MonoGame
 In order to realize the aim, Monogame had better take XNA as cornerstone, which is an renowned open source method. XNA is intended for writing once and running everywhere, so just a small piece of code needs to be modified to run across Windows, Mac OS, Linux, Android and IOS. What's more, based on XNA, MonaGame isn't depended on specific device, providing support for both usual input device such as mouse and keyboard and unusual ones such as XBox360 and other gamePad.
 
 ![EarliestDecision](https://github.com/ruanti2018-1/zy1-monogame/blob/master//EarliestDecision.png)
+Figure 9: Earliest decision.
 
 #### Q&A
 
@@ -248,50 +296,7 @@ Basic support layer; compound component layer; user-oriented integrated API laye
 
 According to Rozanski and Woods, the deployment view describes the environment into which the system will be deployed, including the dependencies the system has on its runtime environment.
 
-### Operating System
 
-MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework, it is an open source spiritual successor to XNA, now supports over 10 platforms including UWP.
-The currently supported platforms are as follows.
-* Desktop PCs   
-   * Windows 10 Store Apps (UWP)
-   * Windows Win32 (OpenGL & DirectX)
-   * Linux (OpenGL)
-   * Mac OS X (OpenGL)
-
-* Mobile/Tablet Devices   
-   * Android (OpenGL)
-   * iPhone/iPad (OpenGL)
-   * Windows Phone 10
-   * Television
-   * tvOS
-
-### System Requirements
-
-This section will give you an overview of minimal system requirements for developing and running MonoGame Applications.
-
-#### Development
-* Windows - 
-* Linux - 1 GB Ram
-* Mac - 
-#### Running MonoGame Application on specific Platform
-* WindowsDX - DirectX 9.0c capable gpu
-* WindowsGL - 
-* Linux - 512 MB Ram
-* Mac -
-* Android - Android 4.2 or higher
-* iOS -
-* Windows Phone - Windows Phone 10
-
-### Setting Up Monogame
-This section will help you setup MonoGame on Platform of your choice.
-#### Windows
-* Visual Studio is an IDE used to develop applications in, among other languages, C#. C# is the most common language used in MonoGame development.
-#### Mac
-* Make sure you install mono and Visual Studio for Mac first so that MonoGame can correctly setup the project templates and addins.
-#### Linux
-* The following packages are needed for the MonoGame Applications to run on Linux:
-   * libopenal-dev
-   * mono-runtime
    
 ### Pipeline  
 The MonoGame Pipeline Tool (Pipeline.exe) is the front-end GUI editor for MonoGame content builder projects.
