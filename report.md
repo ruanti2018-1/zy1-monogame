@@ -156,7 +156,7 @@ This section will help you setup MonoGame on Platform of your choice.
    * libopenal-dev
    * mono-runtime
 
-![ContextView](ContextView.png)
+![ContextView](./ContextView.png)
 Figure 2: Context view.
 
 #### External entities and interfaces
