@@ -265,6 +265,25 @@ It is **NEVER ACCEPTABLE** to decompile copyrighted assemblies and submit that c
 
 The MonoGame project is under the [Microsoft Public License](https://opensource.org/licenses/MS-PL) except for a few portions of the code.  See the [LICENSE.txt](LICENSE.txt) file for more details.  Third-party libraries used by MonoGame are under their own licenses.  Please refer to those libraries for details on the license they use.
 
+### Standardization of testing
+
+The	standardization	of	testing	helps	to	speed	up	the	testing	process	and	ensures	a consistent	result	for	each	newly	released	product.
+
+The MonoGame Tests run against XNA on Windows and MonoGame on Windows, Mac OS X and Linux.  They serve as an assurance that MonoGame conforms as closely as possible to XNA.
+
+Simple unit tests make assertions about MonoGame's core class properties, methods and behavior to guarantee compatibility with XNA in those regards. Additionally, visual tests verify via frame capture and comparison that MonoGame renders equivalently to XNA.
+
+Currently, on Windows, the tests can be run using NUnit and target either XNA or MonoGame.  On Mac OS X and Linux, the tests target MonoGame and are implemented in an executable assembly that can be run and debugged directly.  After execution using the custom test runner, and HTML report of the results will be loaded in your default browser, and a log of stdout can be found in `bin\$(Configuration)\stdout.txt`.
+
+*Note: Currently there is no way to skip or select certain tests to run using the custom runner.  This functionality is coming soon.*
+
+A good visual test, like any good test, should perform the minimum work necessary to verify that the functionality under test is correct. As much as possible, drawing and test code should be made modular by inheriting from ```GameComponent```, ```DrawableGameComponent```, ```VisualTestGameComponent```, or ```VisualTestDrawableGameComponent``` to encourage reuse, rather than duplication, in other tests.
+
+- For new test fixtures, call Paths.SetStandardWorkingDirectory() in [SetUp] \(VisualTestBase does this for you\) to ensure that the
+  ```ContentManager``` can find your assets on all platforms.
+- Note that all platforms are forced to run in Synchronous mode and that this doesn't always work perfectly on all platforms yet.
+
+
 ## Earlier decisions
 
 Software architecture is a manifestation of the earliest design decisions about a system. These early bindings carry enormous weight with respect to the system’s remaining development, its deployment, and its maintenance life. 
@@ -294,6 +313,7 @@ Basic support layer; compound component layer; user-oriented integrated API laye
 5.Will the information that flows through the system be encrypted or not?
 - The information that flows through the system will not be encrypted.
 
+
 ## Deployment view
 
 According to Rozanski and Woods, the deployment view describes the environment into which the system will be deployed, including the dependencies the system has on its runtime environment. It defines physical, computational, and software-based requirements for running the system.
@@ -303,8 +323,9 @@ For *Windows* users, you will need an IDE to develop MonoGame applications, the 
 However, developing on the *Mac* requires a number of other frameworks and applications. To get started you can use the Linux or DesktopGL platforms which will run quite happily on MacOS providing you have mono installed. You will also need Visual Studio for Mac.
 
 Aside from the memory required to install Monogame in the first place, no other hardware requirements for using Monogame are mentioned anywhere. Monogame requires around 512 Mb(on Linux) of storage space to be installed.
-   
+
 ### Pipeline  
+
 The MonoGame Pipeline Tool (Pipeline.exe) is the front-end GUI editor for MonoGame content builder projects.
 
 ![Pipeline Tool](http://www.monogame.net/docs/html/images/pipeline.png)
