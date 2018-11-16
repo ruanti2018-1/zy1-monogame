@@ -302,7 +302,7 @@ A good visual test, like any good test, should perform the minimum work necessar
 - Note that all platforms are forced to run in Synchronous mode and that this doesn't always work perfectly on all platforms yet.
 
 For debugger support, Run tests directly in the NUnit process, (note that this may cause a few-seconds-long hang when exiting NUnit after running a visual test) otherwise choose 'single separate process'
-- This setting can be found in: Tools > Settings > Test Loader > Assembly Isolation
+- This setting can be found in: ```Tools > Settings > Test Loader > Assembly Isolation```
 
 
 ## Earlier decisions
