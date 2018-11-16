@@ -1,4 +1,5 @@
- MONOGAME 
+
+MONOGAME 
 ========== 
 ### One Framework For Creating Powerful Cross-platform Games
 
@@ -13,6 +14,7 @@ Monogame is a cross-platform, hardware accelerated API providing graphics, audio
 ## Table of contents
 - [Introduction](#introduction)
 - [Stakeholders](#stakeholders)
+- [Quality Attributes](#quality-attributes)
 - [Context view](#context-view)
 - [Evolution view](#evolution-view)
 - [Development view](#development-view)
@@ -87,6 +89,21 @@ Table1:Most	active	contributors	in	trems	of	number	of	commits
 ![power interest](stakeholder.png)
 
 Figure 1: Power Interest Graph of Monogame
+
+## Quality attributes
+
+It is known that MonoGame is a software structure that focus on C# game developing, so the table below illustrates six scenario of MonoGame quality attributes:
+
+Table2: Quality attributes analysis
+
+Quality Attribute	| scenery	| stimulus	| stimulation	| product	| environment	| response
+-----|-----|-----|-----|-----|-----|-----
+Availability	| A Linux user wants to develop a game using MonoGame	| A game developer	| Using Linux operating system	| A optimized structure MonoGame that can support Linux system	| Normal operation	| Record the requirement and respond to the public to look for solution
+Mutability	| Add a new function for the structure or perfect current system	| Developers and other contributors	| Further need for the functions of the structure	| A better usable structure MonoGame |	During testing, designing and running	| Find the part to be changed, and test after changing
+Performance	| A game using MonoGame as its structure can not perform quickly	| From inside the structure	| Gamer’s operation arrives	| A higher speed structure and optimized algorithms	| Override pattern	| Handle the stimulation
+Security	| A attacker is trying to rewrite the major part of the structure.(Since MonoGame is a open-source structure)	| Attackers | An attempt to change structure data | Safety defender will start to work for the structure	| Online attack	| Main leaders of the structure stop the attacker and repair the structure
+Testability	| After a new part of the structure were developed	| Developers and testers	| A newly developed structure |	A new version of the structure	| During designing, developing and deploying	| Test again and again
+Usability	| A game developer is trying to figure out how to use MonoGame to develop a game	| Game developers	| An attempt to get familiar to the structure	| A user guide website	| During developing time	| Develop a web to introduce MonoGame and release a series of tutorials
 
 ## Context view
 
