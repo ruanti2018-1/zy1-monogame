@@ -18,6 +18,7 @@ Monogame is a cross-platform, hardware accelerated API providing graphics, audio
 - [Development view](#development-view)
 - [Earlier decisions](#earlier-decisions)
 - [Deployment view](#deployment-view)
+- [Technical debt](#technical-debt)
 
 ## Introduction
 
@@ -345,4 +346,4 @@ The Pipeline Tool has the following features:
 
 The Pipeline Tool is included in the SDK installation.
 
-
+## Technical debt
