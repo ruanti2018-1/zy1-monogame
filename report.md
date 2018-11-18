@@ -311,9 +311,15 @@ Software architecture is a manifestation of the earliest design decisions about 
 
 As for MonoGame, we attch great significance to its initial intention, "MonoGame Framework simplifies game developing greatly".  And we surround this idea to simulate the process of making ealier decisions.
 
-In order to realize the aim, Monogame had better take XNA as cornerstone, which is an renowned open source method. XNA is intended for writing once and running everywhere, so just a small piece of code needs to be modified to run across Windows, Mac OS, Linux, Android and IOS. What's more, based on XNA, MonaGame isn't depended on specific device, providing support for both usual input device such as mouse and keyboard and unusual ones such as XBox360 and other gamePad.
+In order to realize the aim,especially at the stage of earlier decisions, Monogame choose to take three measures. 
 
-![EarliestDecision](https://github.com/ruanti2018-1/zy1-monogame/blob/master//EarliestDecision.jpg)
+![EarliestDecision](./EarliestDecision.jpg)
+
+- First, Monogame had better take XNA as cornerstone, which is an renowned open source method. XNA is intended for writing once and running everywhere, so just a small piece of code needs to be modified to run across Windows, Mac OS, Linux, Android and IOS. What's more, based on XNA, MonaGame isn't depended on specific device, providing support for both usual input device such as mouse and keyboard and unusual ones such as XBox360 and other gamePad.
+- Then, only one high level programming language is applied in  the whole platform, that is C#. Thus, make this framework more user friendly and developer friendly. And just as we mentioned before, the project is based on Windows XNA and C# is literally perfect for this API because they are both products of the Microsoft Company.
+- Last but not least, developers of Monogame determined that Monogame should be layered, which consists of basic support layer, compound component layer and user-oriented integrated API layer, three layers. Layered architecture really let the whole project benefits from flexibilities, contributing to realizing its goal that let users write great game by simple API. Basic Support Layer compose of fundamental data store, basic class like vector,point,plane and basic library for physics and mathematics. Compound Component Layer contains third-party tools, small function mode for a paticular service and Cross-Platform adaptive component. User-Friendly API is powerful and easy to use like Song, Video and other Media API, something like these.
+
+
 Figure 9: Earliest decision.
 
 #### Q&A
