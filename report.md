@@ -313,7 +313,7 @@ As for MonoGame, we attch great significance to its initial intention, "MonoGame
 
 In order to realize the aim, Monogame had better take XNA as cornerstone, which is an renowned open source method. XNA is intended for writing once and running everywhere, so just a small piece of code needs to be modified to run across Windows, Mac OS, Linux, Android and IOS. What's more, based on XNA, MonaGame isn't depended on specific device, providing support for both usual input device such as mouse and keyboard and unusual ones such as XBox360 and other gamePad.
 
-![EarliestDecision](https://github.com/ruanti2018-1/zy1-monogame/blob/master//EarliestDecision.png)
+![EarliestDecision](https://github.com/ruanti2018-1/zy1-monogame/blob/master//EarliestDecision.jpg)
 Figure 9: Earliest decision.
 
 #### Q&A
