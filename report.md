@@ -185,6 +185,7 @@ Monogame is a widely-used framework to build cross-platform games. As one can im
 - 4.0 XNA API is based on .NET Framework 4.0 and platform, Visual Studio 2012. As a result, MonoGame is written in C#.
 - Active development team of 30-40 core developers and more than 200 contributors from the open source community
 - The major user of Monogame is individual developers. There are some prominent productions such as Stardewvalley, Pumpkin Games, Apotheon.etc
+
 - A Githubu repository filled with code, plugins and many issues is used to host the code base
 - Communication and support is provided via Github, Facebook, Tiwtter, YouTube and its own community.
 
@@ -229,6 +230,12 @@ The above gragh shows the soource and division which are listed as follows:
 - Tools/MGCB is the command line tool for content processing. 
 - Tools/2MGFX is the command line effect compiler tool. 
 - The Tools/Pipeline tool is a GUI frontend for content processing. 
+
+### Module View
+
+![Module View Graph](zy1-monogame/CodeModuleView.png )
+
+It is shown inthe picture that, the code of MonoGame can be reflected into three layers: Game, which is the management of the whole project; four lower parts that Game is consisted of; and the lowest part that combine all the details and contents, attributes. The relationships of the classes are nearly totally association and interfacing, so the structure of MonoGame's code is comparatively amenable.
 
 ### Developing flow
 
