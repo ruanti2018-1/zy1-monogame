@@ -17,7 +17,7 @@ Monogame is a cross-platform, hardware accelerated API providing graphics, audio
 - [Quality Attributes](#quality-attributes)
 - [Context view](#context-view)
 - [Evolution view](#evolution-view)
-- [Logical view)(#logical-view)
+- [Logical view](#logical-view)
 - [Development view](#development-view)
 - [Earlier decisions](#earlier-decisions)
 - [Deployment view](#deployment-view)
@@ -204,7 +204,8 @@ The first type has only occurred three times in the history of MonoGame. The lat
 ![EvolutionView](./EvolutionView.png)
 Figure 4: Evolution view.
 
-## Logical View
+## Logical view
+
 ![LogicalView](https://github.com/ruanti2018-1/zy1-monogame/blob/master/logicalView.png)
 
 * The user sends the request to the front-end controller. The dispatcher servelet decides which page controller to process according to the request information and delegates the request to it, namely the control logic part of the former controller.
