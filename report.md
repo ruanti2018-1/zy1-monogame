@@ -203,6 +203,14 @@ The first type has only occurred three times in the history of MonoGame. The lat
 ![EvolutionView](./EvolutionView.png)
 Figure 4: Evolution view.
 
+## Logical View
+![LogicalView](https://github.com/ruanti2018-1/zy1-monogame/blob/master/logicalView.png)
+
+* The user sends the request to the front-end controller. The dispatcher servelet decides which page controller to process according to the request information and delegates the request to it, namely the control logic part of the former controller.
+* After receiving the request, the handler adapter conducts functional processing. It needs to collect and bind the request parameters to an object.
+* The dispatcher servelet takes back control, and then selects the corresponding view to render according to the returned logical view name, and passes the model data to the view.
+* The dispatcher servelet reclaims control and returns the response to the user.
+
 ## Development view
 
 ### Source code architecture
