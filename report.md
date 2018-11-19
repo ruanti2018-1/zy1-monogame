@@ -233,9 +233,9 @@ The above gragh shows the soource and division which are listed as follows:
 
 ### Module View
 
-![Module View Graph](zy1-monogame/CodeModuleView.png )
+![Module View Graph](https://github.com/ruanti2018-1/zy1-monogame/blob/master/CodeModuleView.png)
 
-It is shown inthe picture that, the code of MonoGame can be reflected into three layers: Game, which is the management of the whole project; four lower parts that Game is consisted of; and the lowest part that combine all the details and contents, attributes. The relationships of the classes are nearly totally association and interfacing, so the structure of MonoGame's code is comparatively amenable.
+It is shown in the picture that, the code of MonoGame can be reflected into three layers: Game, which is the management of the whole project; four lower parts that Game is consisted of; and the lowest part that combine all the details and contents, attributes. The relationships of the classes are nearly totally association and interfacing, so the structure of MonoGame's code is comparatively amenable.
 
 ### Developing flow
 
