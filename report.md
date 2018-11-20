@@ -20,8 +20,8 @@ Monogame is a cross-platform, hardware accelerated API providing graphics, audio
 - [Logical view](#logical-view)
 - [Development view](#development-view)
 - [Deployment view](#deployment-view)
-- [Technical debt](#technical-debt)
 - [Earlier decisions](#earlier-decisions)
+- [Technical debt](#technical-debt)
 
 
 ## Introduction
