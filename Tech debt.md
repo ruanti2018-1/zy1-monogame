@@ -5,4 +5,5 @@ Quick Wins tells us the function is too long to cause some error in ```Documenta
 CodeFactor reveals the overall grade score of Monogame is 8.75/10 which means B+. There are 3400 issues and 1430 files to be analyzed.![cf](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/CFGPA.png)
 Six factors relates to program developing are showed now: 
 Complexity(185) | Style(2150) | Compatibility(2) | Performance(70) | Maintainability(992) | Accessibility(1)
+-----|-----|-----|-----|-----|-----
 ![comp](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/Comp.png) | ![sty](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/Sty.png) | ![com](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/Com.png) | ![per](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/Per.png) | ![Mai](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/Mai.png) | ![Acc](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/Acc.png) 
