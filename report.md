@@ -403,4 +403,19 @@ The Pipeline Tool is included in the SDK installation.
 ### Evolution of Technical Debt
 
 In order to getting better perspective about the evolution of the technical debt in the project over time, let's look at the different releases of Monogame. The project has a total of 14 releases since 2009. Monogame release its version of beta testing at the Monogame 3.0 Beta. Besides, we use the code factor to test the codes. In the image we can know the developement of the code line.
+
 ![evolution of technical debt](https://github.com/ruanti2018-1/zy1-monogame/blob/master/evolution.jpg)
+
+But the most biggest change showed in the version3.0. The changes are as followed.
+* 3D (many thanks to Infinite Flight Studios for the code and Sickhead Games in taking the time to merge the code in)
+* New platforms: Windows 8, Windows Phone 8, OUYA, PlayStation Mobile (including Vita)
+* Custom Effects
+* PVRTC support for iOS
+* iOS supports compressed Songs
+* Skinned Meshs
+* VS2012 templates
+* New Windows Installer
+* New MonoDevelop Package/AddIn
+* A LOT of bug fixes
+* Closer XNA 4 compatibility
+
