@@ -1,0 +1,4 @@
+We have used CODEBEAT to analysis JavaScript projects and CodeFactor to analysis C# projects. Here comes the technical debt of JS first. As there are few projects written by js, the grade is high with 3.9/4.0 score. Complexity, Styles will show as follows, Duplications and Security are no results and no changes. Quick Wins tells us the function is too long to cause some error in Documentation/Styles/MonoGame/js/sharpdoc.js.SplitPane, Namespaces help us measure technical debt and find refactoring opportunities.
+
+CodeFactor reveals the overall grade score of Monogame is 8.75/10 which means B+. There are 3400 issues and 1430 files to be analyzed. Six factors relates to program developing are showed now: 
+Complexity(185)|Style(2150)|Compatibility(2)|Performance(70)|Maintainability(992)|Accessibility(1)
