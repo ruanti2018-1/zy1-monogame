@@ -12,11 +12,11 @@ Complexity(185) | Style(2150) | Compatibility(2) | Performance(70) | Maintainabi
  Medium`8` | Empty line before_}_ `360` |    |    | Type not in separate source file`55` |  
  Medium Total`5` |  Empty line at the end of file`252` |    |    | Unnecessary code`28` |  
  High Total`2` | Incorrect spacing around;`8` |    | Unnecessary;`27` | Unused variable`13` |  
-              | Empty line between chained statements`8` |    |    | Use readable conditions`7` |  
-           | Empty line after documentation header`4` |    |   | Use of implied conditional operator precedence`2` |   
-        | New line character in selector`1` |    |    | Multiple namespaces in source file`2` |  
-       | Empty line at start of file`1` |    |    | Use of !important`1` |  
-       |     |      |      | Use of read without -r`7` |   
+ \ | Empty line between chained statements`8` |    |    | Use readable conditions`7` |  
+ \ | Empty line after documentation header`4` |    |   | Use of implied conditional operator precedence`2` |   
+ \ | New line character in selector`1` |    |    | Multiple namespaces in source file`2` |  
+ \ | Empty line at start of file`1` |    |    | Use of !important`1` |  
+ \ |     |      |      | Use of read without -r`7` |   
 
 
 
