@@ -7,4 +7,27 @@ Six factors relates to program developing are showed now:
 
 Complexity(185) | Style(2150) | Compatibility(2) | Performance(70) | Maintainability(992) | Accessibility(1)
 ----|-------|-----|-------|-----|-----
-- Low`153`, - Low Total`17`,- Medium`8`,- Medium Total`5`,- High Total`2` | Multiple empty lines`1048`, Empty line after{ `388`, Empty line before_}_ `360`, Empty line at the end of file`252`, Incorrect spacing around;`8`, Empty line between chained statements`8`, Empty line after documentation header`4`, New line character in selector`1`, Empty line at start of file`1` | Vendor-prefixed property without standard property`2` | Overqualified element`54`, Use of units of 0 value`16` | Multiple statement in one line`456`, Use of implied arithmetic operator precedence`400`, Type not in separate source file`55`, Unnecessary code`28`, Unnecessary;`27`, Unused variable`13`, Use readable conditions`7`, Use of implied conditional operator precedence`2`, Multiple namespaces in source file`2`, Use of !important`1`, Use of read without -r`7` | Use of outline:none`1` 
+ Low`153`, 
+ Low Total`17`, 
+ Medium`8`,
+ Medium Total`5`,
+ High Total`2` | Multiple empty lines`1048`,
+ Empty line after{ `388`,
+ Empty line before_}_ `360`,
+ Empty line at the end of file`252`, 
+ Incorrect spacing around;`8`, 
+ Empty line between chained statements`8`, 
+ Empty line after documentation header`4`,
+ New line character in selector`1`,
+ Empty line at start of file`1` | Vendor-prefixed property without standard property`2` | Overqualified element`54`,
+ Use of units of 0 value`16` | Multiple statement in one line`456`,
+ Use of implied arithmetic operator precedence`400`,
+ Type not in separate source file`55`,
+ Unnecessary code`28`,
+ Unnecessary;`27`, 
+ Unused variable`13`, 
+ Use readable conditions`7`, 
+ Use of implied conditional operator precedence`2`, 
+ Multiple namespaces in source file`2`, 
+ Use of !important`1`, 
+ Use of read without -r`7` | Use of outline:none`1` 
