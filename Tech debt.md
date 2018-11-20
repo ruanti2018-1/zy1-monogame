@@ -11,7 +11,7 @@ Complexity(185) | Style(2150) | Compatibility(2) | Performance(70) | Maintainabi
  Low Total`17`| Empty line after{ `388` |    | Use of units of 0 value`16` |  Use of implied arithmetic operator precedence`400` |   
  Medium`8` | Empty line before} `360` |    |    | Type not in separate source file`55` |  
  Medium Total`5` |  Empty line at the end of file`252` |    |    | Unnecessary code`28` |  
- High Total`2` | Incorrect spacing around;`88` |    |   | Unused variable`13` |  
+ High Total`2` | Incorrect spacing around;`88` |    |   | Unnecessary;`27` , Unused variable`13` |  
  \ | Empty line between chained statements`8` |    |    | Use readable conditions`7` |  
  \ | Empty line after documentation header`4` |    |   | Use of implied conditional operator precedence`2` |   
  \ | New line character in selector`1` |    |    | Multiple namespaces in source file`2` |  
