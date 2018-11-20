@@ -251,7 +251,10 @@ It is shown in the picture that, the code of MonoGame can be reflected into thre
 
 #### Codeline Organization
 
-- Component Collections: This part of MonoGame that serves
+- Component Collections: Help load components of the structure, such as drawable components, audio components.
+- Container: It is exactly the area that components are put, that’s to say, it is defined as a panel for drawing our game
+- Platform: Define service injection supports, and the base services for MonoGame. It provides interfaces to several platforms 
+- Content Manager: Control the contents of the project, containing attributes of components, and effections.
 
 ### Developing flow
 
