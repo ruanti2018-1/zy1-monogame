@@ -9,7 +9,7 @@ Complexity(185) | Style(2150) | Compatibility(2) | Performance(70) | Maintainabi
 ----|-------|-----|-------|-----|-----
  Low`153` | Multiple empty lines`1048` | Vendor-prefixed property without standard property`2` | Overqualified element`54` | Multiple statement in one line`456` | Use of outline:none`1`
  Low Total`17`| Empty line after{ `388` |    | Use of units of 0 value`16` |  Use of implied arithmetic operator precedence`400` |   
- Medium`8` | Empty line before_}_ `360` |    |    | Type not in separate source file`55` |  
+ Medium`8` | Empty line before} `360` |    |    | Type not in separate source file`55` |  
  Medium Total`5` |  Empty line at the end of file`252` |    |    | Unnecessary code`28` |  
  High Total`2` | Incorrect spacing around;`88` |    |   | Unused variable`13` |  
  \ | Empty line between chained statements`8` |    |    | Use readable conditions`7` |  
