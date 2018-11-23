@@ -54,24 +54,23 @@ and relate our views of the classes in relation to the monogame project.
 In early 2014 stewardship of the MonoGame project was handed off to Tom Spilman and Steve Williams who currently lead the project.
 
 - Project Leads：
-Steve Williams
-Tom Spilman
+   - Steve Williams
+   - Tom Spilman
 
 - Developers：
-> Steve Williams,  Tom Spilman, Dean Ellis, Marko Jeremic
+   - Steve Williams,  Tom Spilman, Dean Ellis, Marko Jeremic
 
 - Developer Emeriti：
-> José Antonio Leal de Farias, Dominique Louis, Kenneth Pouncey, Andrea Magnorsky, Jacob Anderson
+   - José Antonio Leal de Farias, Dominique Louis, Kenneth Pouncey, Andrea Magnorsky, Jacob Anderson
 
 - Evangelists：
-> Dominique Louis (London, UK), Andrea Magnorsky (Dublin, IE), Bill Reiss (Tampa, US), Shmuel Englard (New Jersey, US), 
-> Kowsheek Mahmood (Toronto, CA), Chris Foster (Tucson, US), Hüseyin Uslu (Ankara, TR), Giovanni Colì (Apulia, IT), 
-> Joe Stead (York, UK), Randolph Burt (Kent, UK), Tomáš Slavíček (Prague, CZ), Artem Veselovsky (Lviv, UA), 
-> Deniz Opal (Istanbul, TR), Alexandre Z. Chohfi (São Paulo, BR)
+   - Dominique Louis (London, UK), Andrea Magnorsky (Dublin, IE), Bill Reiss (Tampa, US), Shmuel Englard (New Jersey, US), 
+   - Kowsheek Mahmood (Toronto, CA), Chris Foster (Tucson, US), Hüseyin Uslu (Ankara, TR), Giovanni Colì (Apulia, IT), 
+   - Joe Stead (York, UK), Randolph Burt (Kent, UK), Tomáš Slavíček (Prague, CZ), Artem Veselovsky (Lviv, UA), 
+   - Deniz Opal (Istanbul, TR), Alexandre Z. Chohfi (São Paulo, BR)
 
 - Users：
->
-> The major user of Monogame is individual developers. Their concrete names are hard to find. There are some prominent productions such as Stardewvalley, Pumpkin Games, Apotheon.etc
+   - The major user of Monogame is individual developers. Their concrete names are hard to find. There are some prominent productions such as Stardewvalley, Pumpkin Games, Apotheon.etc
 
 Table1:Most	active	contributors	in	trems	of	number	of	commits
 
@@ -400,7 +399,7 @@ Basic support layer; compound component layer; user-oriented integrated API laye
 
 ## Technical debt
 
-- We have used CODEBEAT to analysis JavaScript projects and CodeFactor to analysis C# projects. Here comes the technical debt of JS first. As there are few projects written by js, the grade is high with 3.9/4.0 score. ![cbgpa](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/CBGPA.png)
+- We have used **CODEBEAT** to analysis JavaScript projects and **CodeFactor** to analysis C# projects. Here comes the technical debt of JS first. As there are few projects written by js, the grade is high with 3.9/4.0 score. ![cbgpa](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/CBGPA.png)
 
 - Complexity, Styles will show as follows, Duplications and Security are no results and no changes. ![complexity](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/cbcmp.png) ![styles](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/cbsty.png)
 
@@ -426,7 +425,7 @@ Complexity(185) | Style(2150) | Compatibility(2) | Performance(70) | Maintainabi
 
 ### Evolution of Technical Debt
 
-In order to getting better perspective about the evolution of the technical debt in the project over time, let's look at the different releases of Monogame. The project has a total of 14 releases since 2009. Monogame release its version of beta testing at the Monogame 3.0 Beta. Besides, we use the code factor to test the codes. In the image we can know the developement of the code line.
+In order to getting better perspective about the evolution of the technical debt in the project over time, let's look at the different releases of Monogame. The project has a total of 14 releases since 2009. Monogame release its version of beta testing at the Monogame 3.0 Beta. Besides, we use the **CodeFactor** to test the codes. In the image we can know the developement of the code line. However, CodeFactor can only test the project posted on github in 1 year time, though different releases won't classify clearly, as time goes by,   
 
 ![evolution of technical debt](https://github.com/ruanti2018-1/zy1-monogame/blob/master/evolution.jpg)
 
