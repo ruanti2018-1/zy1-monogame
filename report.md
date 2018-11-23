@@ -204,6 +204,19 @@ The first type has only occurred three times in the history of MonoGame. The lat
 ![EvolutionView](./EvolutionView.png)
 Figure 4: Evolution view.
 
+But the most biggest change showed in the version3.0. The changes are as followed.
+* 3D (many thanks to Infinite Flight Studios for the code and Sickhead Games in taking the time to merge the code in)
+* New platforms: Windows 8, Windows Phone 8, OUYA, PlayStation Mobile (including Vita)
+* Custom Effects
+* PVRTC support for iOS
+* iOS supports compressed Songs
+* Skinned Meshs
+* VS2012 templates
+* New Windows Installer
+* New MonoDevelop Package/AddIn
+* A LOT of bug fixes
+* Closer XNA 4 compatibility
+
 ## Logical view
 
 ![LogicalView](https://github.com/ruanti2018-1/zy1-monogame/blob/master/logicalView.png)
@@ -425,20 +438,9 @@ Complexity(185) | Style(2150) | Compatibility(2) | Performance(70) | Maintainabi
 
 ### Evolution of Technical Debt
 
-In order to getting better perspective about the evolution of the technical debt in the project over time, let's look at the different releases of Monogame. The project has a total of 14 releases since 2009. Monogame release its version of beta testing at the Monogame 3.0 Beta. Besides, we use the **CodeFactor** to test the codes. In the image we can know the developement of the code line. However, CodeFactor can only test the project posted on github in 1 year time, though different releases won't classify clearly, as time goes by,   
+In order to getting better perspective about the evolution of the technical debt in the project over time, let's look at the different releases of Monogame. The project has a total of 14 releases since 2009. Monogame release its version of beta testing at the Monogame 3.0 Beta. Besides, we use the **CodeFactor** to test the codes. In the image we can know the developement of the code line. However, CodeFactor can only test the project posted on github in 1 year time, though different releases won't classify clearly, as time goes by, codeline is becoming more and more and accompanying issues are increasing but after reach a point the lines tends to be unchange. The bugs, vulnerabilities and technical-debt is generally stable over the last few releases.  
 
 ![evolution of technical debt](https://github.com/ruanti2018-1/zy1-monogame/blob/master/evolution.jpg)
 
-But the most biggest change showed in the version3.0. The changes are as followed.
-* 3D (many thanks to Infinite Flight Studios for the code and Sickhead Games in taking the time to merge the code in)
-* New platforms: Windows 8, Windows Phone 8, OUYA, PlayStation Mobile (including Vita)
-* Custom Effects
-* PVRTC support for iOS
-* iOS supports compressed Songs
-* Skinned Meshs
-* VS2012 templates
-* New Windows Installer
-* New MonoDevelop Package/AddIn
-* A LOT of bug fixes
-* Closer XNA 4 compatibility
+It can be concluded that technical debt in Monogame has been present from the start and has evolved over time along with the project. The biggest issues concerning tehnical debt are styles and maintainability of the code, developers may not pay much attention to teh normalization and appearance of codeline.  
 
