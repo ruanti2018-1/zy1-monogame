@@ -414,14 +414,16 @@ Basic support layer; compound component layer; user-oriented integrated API laye
 
 - We have used **CODEBEAT** to analysis JavaScript projects and **CodeFactor** to analysis C# projects. Here comes the technical debt of JS first. As there are few projects written by js, the grade is high with 3.9/4.0 score. ![cbgpa](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/CBGPA.png)
 
-- Complexity, Styles will show as follows, Duplications and Security are no results and no changes. ![complexity](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/cbcmp.png) ![styles](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/cbsty.png)
+- Complexity, Styles will show as follows, Duplications and Security are no results and no changes. 
+Function is too long in ```Documentation/Styles/MonoGame/js/sharpdoc.js.SplitPane``` to cause a little error which increases the complexity of the project, as for styles, we can see there are some defined but never used variables, those are developers need to take into account.
+![complexity](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/cbcmp.png) ![styles](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/cbsty.png)
 
-- Quick Wins tells us the function is too long to cause some error in ```Documentation/Styles/MonoGame/js/sharpdoc.js.SplitPane```,
-Namespaces help us measure technical debt and find refactoring opportunities. ![qw](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/QW.png) ![name](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/Nam.png)
+- Quick Wins shows found issues with the biggest overall impact on project's health, try to refactor these hot spots will improve the GPA.
+Namespaces helps us measure technical debt and find refactoring opportunities. We can easily draw the conclusion that decrease the  complexity of js files will distribute a lot to better its performance. ![qw](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/QW.png) ![name](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/Nam.png)
 
 - CodeFactor reveals the overall grade score of Monogame is 8.75/10 which means B+. There are 3400 issues and 1430 files to be analyzed.![cf](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/CFGPA.png)
 
-- Six factors relates to program developing are showed now, They are problems in 3400 issues, monogame developers need to take account of them.
+- Six factors relates to program developing are showed now, They are problems in 3400 issues, monogame developers need to consider to solve them. As for CSharp files, the coding style and loss of maintainability account for a large proportion to technical debt, most of them are nonstandard code.
 
 Complexity(185) | Style(2150) | Compatibility(2) | Performance(70) | Maintainability(992) | Accessibility(1)
 ----|-------|-----|-------|-----|-----
