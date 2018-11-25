@@ -95,7 +95,9 @@ Figure 1: Power Interest Graph of Monogame
 
 - Explanation
    - Manage closely: This part of Power Interst Graph includes the major developers as well as the leaders. They are definitely the ones that contribute to the project most and that pay most attention to the work.
-   - 
+   - Keep satisified: This part is consisted of the supporters of the project who provide most help to the project but are less interested in it.
+   - Monitor: The monitor is the users that use this structure to develop games. They only care about how to use the project and do not think about the development of the project, but it is improtant to satisify their requirement, which means they are exactly the ones that tell developers what to do.
+   - Keep informed: It is mentioned in this paper that Monogame depends on XNA structure, so the developers must keep them known about which part of XNA has been used.
 
 ## Quality attributes
 
