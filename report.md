@@ -93,6 +93,10 @@ Table1:Most	active	contributors	in	trems	of	number	of	commits
 
 Figure 1: Power Interest Graph of Monogame
 
+- Explanation
+   - Manage closely: This part of Power Interst Graph includes the major developers as well as the leaders. They are definitely the ones that contribute to the project most and that pay most attention to the work.
+   - 
+
 ## Quality attributes
 
 It is known that MonoGame is a software structure that focus on C# game developing, so the table below illustrates six scenario of MonoGame quality attributes:
