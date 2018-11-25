@@ -471,6 +471,19 @@ It can be concluded that technical debt in Monogame has been present from the st
 ## Conclusion
 This chapter summarised and analysed the Monogame in many architectural views and perspectives, ins and outs of the Monogame system and what keeps it running, helping the reader to be able to understand and contribute to the project.
 
+First off, in the stakeholder analysis, we discovered that Monogame is actively maintained and developed by a small team of developers and external contributors. 
+In the Context View, the system scope of Monogame is given. We explained what tools Monogame uses to help maintaining and developing code, as well as give an overview of all the interactions between Monogame and its environment, which consists of Programming Language, Cornerstone API, Version Control tools, IDE support, User, Developers, Supported Platform, and Communication, Eight part.
+As for evolution view, this section analyses the evolution of the Monogame Framework, including both detailed information of version iteration and main aspects of framwork change. The evolution perspective focuses on identifying the ability to main flexibility with inevitable change too.
+Next, in the logical view, we find that the MonoGame is a software which is based on several components. With the dispatcher servelet, the software gets what the user needs. the handler adapter conducts functional processing. It needs to collect and bind the request parameters to an object.
+What's more, in the development view part, firstly, we analyzed the structure of source code, which consists of roughly three layers according to the source code file on Github; then we overtook a deeper understanding of the source code, and the module view formed, in which we showed how the structure were developed and the core of source code. After analyzing the source code, we developed a flow chart about how to use MonoGame as the structure of your own game developing with the help of the website of MonoGame, and we divided the process into two layers: setting part and developing part. At the end of development view, we added the standardization of design, for that it is improtant to obey some rules whenvere you are using this structure or contributing to the source code. 
+Afterwards, in the deployment view, the main components necessary for launching Monogame were given. As Monogame is a lightweight Microsoft XNA framework without specific hardware requirements.
+Finally, in the technical debt part, Monogame faces some technical debt such as the lack of maintainability and unstandard coding style. CodeFactor gives us some hot spots and GPA grade of Monogame which leads to deeper consideration of the improvement.
+
+Some suggestions that	could be made to help	developers	in the future include:
+Improve the documentation on coding, pull-requests, building and testing; 
+Improve the test coverage of the project to reduce the chance of faulty functions or code breaking; 
+Reduce the technical debt by fixing code smells and coding guidelines, this will improve readability of the code which in turn can improve productivity.
+
 ## References
 1.	Nick	Rozanski	and	Eoin	Woods.	Software	Systems	Architecture:	Working	with Stakeholders	using	Viewpoints	and	Perspectives.	Addison-Wesley,	2012. 
 2. MonoGame Documentation  http://www.monogame.net/documentation/?page=main
