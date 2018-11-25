@@ -358,14 +358,14 @@ Aside from the memory required to install Monogame in the first place, no other 
 
 Monogame needs a few third-party software packages in order to be used. Next some of the Monogame binary dependencies submodule will be introduced.
  Dependencies | Role
- ----| ----
-ATI.TextureConverter | a C# wrapper for the Qualcomm TextureConter.dll
+ ---- | ----
+ ATI.TextureConverter | a C# wrapper for the Qualcomm TextureConter.dll
  CppNet | a pure C#implementation of a C preprocessor
-SDL | SDL library for Linux
-FlatpacLibs | Libraries of a Linux application sandbox and distribution framework
-GLSLOptimizeSharp | libglsl_optimizer.so with statically linked dependencies
-MojoShador | a library to work with Direct3D shaders on alternate 3D APIs and non-Windows platforms
-OUYA | C# library for ODK 1.0.13
+ SDL | SDL library for Linux
+ FlatpacLibs | Libraries of a Linux application sandbox and distribution framework
+ GLSLOptimizeSharp | libglsl_optimizer.so with statically linked dependencies
+ MojoShador | a library to work with Direct3D shaders on alternate 3D APIs and non-Windows platforms
+ OUYA | C# library for ODK 1.0.13
 
 ### Pipeline  
 
