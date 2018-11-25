@@ -469,5 +469,7 @@ In order to getting better perspective about the evolution of the technical debt
 It can be concluded that technical debt in Monogame has been present from the start and has evolved over time along with the project. The biggest issues concerning tehnical debt are styles and maintainability of the code, developers may not pay much attention to teh normalization and appearance of codeline.  
 
 ## Conclusion
+This chapter summarised and analysed the Monogame in many architectural views and perspectives, ins and outs of the Monogame system and what keeps it running, helping the reader to be able to understand and contribute to the project.
 
 ## References
+1.	Nick	Rozanski	and	Eoin	Woods.	Software	Systems	Architecture:	Working	with Stakeholders	using	Viewpoints	and	Perspectives.	Addison-Wesley,	2012. 
