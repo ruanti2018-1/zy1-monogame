@@ -473,3 +473,4 @@ This chapter summarised and analysed the Monogame in many architectural views an
 
 ## References
 1.	Nick	Rozanski	and	Eoin	Woods.	Software	Systems	Architecture:	Working	with Stakeholders	using	Viewpoints	and	Perspectives.	Addison-Wesley,	2012. 
+2. MonoGame Documentation  http://www.monogame.net/documentation/?page=main
