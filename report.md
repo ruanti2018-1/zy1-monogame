@@ -355,8 +355,7 @@ However, developing on the *Mac* requires a number of other frameworks and appli
 Aside from the memory required to install Monogame in the first place, no other hardware requirements for using Monogame are mentioned anywhere. Monogame requires around 512 Mb(on Linux) of storage space to be installed.
 
 ### Third-party Software Requirements
-
-Monogame needs a few third-party software packages in order to be used. Next some of the Monogame binary dependencies submodule will be introduced.
+Monogame needs a few third-party software packages in order to be used. The user doesn't need to download anthing else then the Monogame software, next some of the Monogame binary dependencies submodule will be introduced.
 
  Dependencies | Role
  ---- | ----
