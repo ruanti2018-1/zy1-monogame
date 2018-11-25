@@ -357,6 +357,7 @@ Aside from the memory required to install Monogame in the first place, no other 
 ### Third-party Software Requirements
 
 Monogame needs a few third-party software packages in order to be used. Next some of the Monogame binary dependencies submodule will be introduced.
+
  Dependencies | Role
  ---- | ----
  ATI.TextureConverter | a C# wrapper for the Qualcomm TextureConter.dll
