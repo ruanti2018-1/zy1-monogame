@@ -354,6 +354,19 @@ However, developing on the *Mac* requires a number of other frameworks and appli
 
 Aside from the memory required to install Monogame in the first place, no other hardware requirements for using Monogame are mentioned anywhere. Monogame requires around 512 Mb(on Linux) of storage space to be installed.
 
+### Third-party Software Requirements
+
+Monogame needs a few third-party software packages in order to be used. Next some of the Monogame binary dependencies submodule will be introduced.
+ Dependencies | Role
+ ----| ----
+ATI.TextureConverter | a C# wrapper for the Qualcomm TextureConter.dll
+ CppNet | a pure C#implementation of a C preprocessor
+SDL | SDL library for Linux
+FlatpacLibs | Libraries of a Linux application sandbox and distribution framework
+GLSLOptimizeSharp | libglsl_optimizer.so with statically linked dependencies
+MojoShador | a library to work with Direct3D shaders on alternate 3D APIs and non-Windows platforms
+OUYA | C# library for ODK 1.0.13
+
 ### Pipeline  
 
 The MonoGame Pipeline Tool (Pipeline.exe) is the front-end GUI editor for MonoGame content builder projects.
