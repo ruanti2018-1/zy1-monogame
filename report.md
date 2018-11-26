@@ -157,7 +157,7 @@ The currently supported platforms are as follows.
 
 ### System Requirements
 
-This section will give you an overview of minimal system requirements for developing and running MonoGame Applications.
+This section will give you an overview of minimal system requirements for developing and running MonoGame Applications according to [SystemRequirements](http://www.monogame.net/documentation/?page=System_Requirements)
 
 #### Development
 * Windows - 
@@ -173,7 +173,7 @@ This section will give you an overview of minimal system requirements for develo
 * Windows Phone - Windows Phone 10
 
 ### Setting Up Monogame
-This section will help you setup MonoGame on Platform of your choice.
+This section will help you setup MonoGame on Platform of your choice [Setting up Monogame](http://www.monogame.net/documentation/?page=Setting_Up_MonoGame)
 #### Windows
 * Visual Studio is an IDE used to develop applications in, among other languages, C#. C# is the most common language used in MonoGame development.
 #### Mac
@@ -188,7 +188,7 @@ Figure 2: Context view.
 
 #### External entities and interfaces
 
-Monogame is a widely-used framework to build cross-platform games. As one can imagine, a software project like this cannot be developed without external libraries, tools and frameworks. On the other hand, many companies cannot develop their game without Monogame. These external relations are examined in this section. Below, these are elaborated upon.
+Monogame is a widely-used framework to build cross-platform games. As one can imagine, a software project like this cannot be developed without external libraries, tools and frameworks. On the other hand, many companies cannot develop their game without Monogame. These external relations are examined in this section. Below, these are elaborated upon, which mainly based on [External Links](http://www.monogame.net/documentation/?page=External_Links) and [Class Library](http://www.monogame.net/documentation/?page=api)
 
 - MonoGame follows the open-source standards of XNA API
 - 4.0 XNA API is based on .NET Framework 4.0 and platform, Visual Studio 2012. As a result, MonoGame is written in C#.
