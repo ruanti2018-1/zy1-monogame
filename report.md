@@ -91,7 +91,7 @@ Table1:Most	active	contributors	in	trems	of	number	of	commits
 
 ![power interest](stakeholder.png)
 
-Figure 1: Power Interest Graph of Monogame
+*Figure 1: Power Interest Graph of Monogame*
 
 - Explanation
    - Manage closely: This part of Power Interst Graph includes the major developers as well as the leaders. They are definitely the ones that contribute to the project most and that pay most attention to the work.
@@ -103,7 +103,7 @@ Figure 1: Power Interest Graph of Monogame
 
 It is known that MonoGame is a software structure that focus on C# game developing, so the table below illustrates six scenario of MonoGame quality attributes:
 
-Table2: Quality attributes analysis
+*Table2: Quality attributes analysis*
 
 Quality Attribute	| scenery	| stimulus	| stimulation	| product	| environment	| response
 -----|-----|-----|-----|-----|-----|-----
@@ -118,30 +118,35 @@ Usability	| A game developer is trying to figure out how to use MonoGame to deve
 
 The context view describes the relationships, dependencies, and interactions between the system and its environment(the people, systems, and external entities with which it interacts). This section examines Monogame's scope, its dependencies on others and the interaction with other parties.
 
-### System scope & Responsibilities
+#### System scope & Responsibilities
 
-MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow XNA developers on Xbox 360, Windows & Windows Phone to port their games to the iOS, Android, Mac OS X, Linux and Windows 8/10.As well as PlayStation Vita, Xbox One and PlayStation 4. As a pioneer of framworks for creating cross-platform games, MonoGame possesses 4 prominent advantages, which are displayed in [the main page](http://www.monogame.net/).
+MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. 
 
-#### Managed Code 
+> ​	Our goal is to allow XNA developers on Xbox 360, Windows & Windows Phone to port their games to the iOS, Android, Mac OS X, Linux and Windows 8/10.As well as PlayStation Vita, Xbox One and PlayStation 4. 
 
-By leveraging C# and other .NET languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code.
+As a pioneer of framworks for creating cross-platform games, MonoGame possesses 4 prominent advantages, which are displayed in [the main page](http://www.monogame.net/).
 
-#### Cross-Platform
+##### Managed Code 
 
-Monogame currently supports iOS, Android, MacOS, Linux, all Windows platforms, PS4, PSVita, Xbox One, and Switch with more platforms on the way.
+By leveraging `C#` and other` .NET` languages on Microsoft and Mono platforms you can write modern, fast, and reliable game code.
 
-#### Open-Source
+##### Cross-Platform
+
+Monogame currently supports *iOS, Android, MacOS, Linux, all Windows platforms, PS4, PSVita, Xbox One, and Switch* with more platforms on the way.
+
+##### Open-Source
 
 All the code is available to programmer ensuring them'll have the ability to make changes when they need to or even port to whole new platforms.
 
-#### Community
+##### Community
 
 With 1000s of shipped games we have built up a vibrant community of developers which use MonoGame for both fun and profit.
 
-### Operating System
+#### Operating System
 
-MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework, it is an open source spiritual successor to XNA, now supports over 10 platforms including UWP.
+MonoGame is an Open Source implementation of the` Microsoft XNA 4` Framework, it is an open source spiritual successor to XNA, now supports over 10 platforms including` UWP`.
 The currently supported platforms are as follows.
+
 * Desktop PCs   
    * Windows 10 Store Apps (UWP)
    * Windows Win32 (OpenGL & DirectX)
@@ -155,15 +160,15 @@ The currently supported platforms are as follows.
    * Television
    * tvOS
 
-### System Requirements
+#### System Requirements
 
 This section will give you an overview of minimal system requirements for developing and running MonoGame Applications according to [SystemRequirements](http://www.monogame.net/documentation/?page=System_Requirements)
 
-#### Development
+##### Development :
 * Windows - 
 * Linux - 1 GB Ram
 * Mac - 
-#### Running MonoGame Application on specific Platform
+##### Running MonoGame Application on specific Platform :
 * WindowsDX - DirectX 9.0c capable gpu
 * WindowsGL - 
 * Linux - 512 MB Ram
@@ -172,45 +177,60 @@ This section will give you an overview of minimal system requirements for develo
 * iOS -
 * Windows Phone - Windows Phone 10
 
-### Setting Up Monogame
+#### Setting Up Monogame
 This section will help you setup MonoGame on Platform of your choice [Setting up Monogame](http://www.monogame.net/documentation/?page=Setting_Up_MonoGame)
-#### Windows
-* Visual Studio is an IDE used to develop applications in, among other languages, C#. C# is the most common language used in MonoGame development.
-#### Mac
+##### Windows
+* [Visual Studio]() is an IDE used to develop applications in, among other languages, `C#.` `C#` is the most common language used in MonoGame development.
+##### Mac
 * Make sure you install mono and Visual Studio for Mac first so that MonoGame can correctly setup the project templates and addins.
-#### Linux
+##### Linux
 * The following packages are needed for the MonoGame Applications to run on Linux:
    * libopenal-dev
    * mono-runtime
 
 ![ContextView](./ContextView.png)
-Figure 2: Context view.
+*Figure 2: Context view.*
 
 #### External entities and interfaces
 
-Monogame is a widely-used framework to build cross-platform games. As one can imagine, a software project like this cannot be developed without external libraries, tools and frameworks. On the other hand, many companies cannot develop their game without Monogame. These external relations are examined in this section. Below, these are elaborated upon, which mainly based on [External Links](http://www.monogame.net/documentation/?page=External_Links) and [Class Library](http://www.monogame.net/documentation/?page=api)
+Monogame is a widely-used framework to build cross-platform games. 
 
-- MonoGame follows the open-source standards of XNA API
-- 4.0 XNA API is based on .NET Framework 4.0 and platform, Visual Studio 2012. As a result, MonoGame is written in C#.
+> As one can imagine, a software project like this cannot be developed without external libraries, tools and frameworks. On the other hand, many companies cannot develop their game without Monogame. 
+
+These external relations are examined in this section. Below, these are elaborated upon, which mainly based on [External Links](http://www.monogame.net/documentation/?page=External_Links) and [Class Library](http://www.monogame.net/documentation/?page=api)
+
+- MonoGame follows the open-source standards of `XNA API`
+- 4.0 XNA API is based on `.NET Framework 4.0` and platform, [Visual Studio 2012](http://www.monogame.net/documentation/?page=api). As a result, MonoGame is written in `C#.`
 - Active development team of 30-40 core developers and more than 200 contributors from the open source community
-- The major user of Monogame is individual developers. There are some prominent productions such as Stardewvalley, Pumpkin Games, Apotheon.etc
-
+- The major user of Monogame is individual developers. There are some prominent productions such as *Stardewvalley, Pumpkin Games, Apotheon.etc*
 - A Githubu repository filled with code, plugins and many issues is used to host the code base
-- Communication and support is provided via Github, Facebook, Tiwtter, YouTube and its own community.
+- Communication and support is provided via *Github, Facebook, Tiwtter, YouTube and its own community.*
 
 ![external links](https://github.com/ruanti2018-1/zy1-monogame/blob/master/external%20links.png)
-Figure 3: Shows external links to several useful reference sites related to Monogame. 
+*Figure 3: Shows external links to several useful reference sites related to Monogame.* 
 
 ## Evolution View
 
-This section analyses the evolution of the Monogame Framework according to [ChangeLog](http://www.monogame.net/documentation/?page=Change_log) . The evolution perspective focuses on identifying the ability to be flexible in the face of inevitable change. As discussed by Rozanski and Woods, a flexible system should be able to deal with all possible types of changes that it may experience during its lifetime. Therefore, the changes throughout the lifetime of the project are analyses in the Figure4.1, and the mechanisms in place to provide flexibility are showed in the Figure4.2.
+This section analyses the evolution of the Monogame Framework according to [ChangeLog](http://www.monogame.net/documentation/?page=Change_log) . 
 
-MonoGame updates their current version number according to the semantic versioning convention. Most MonoGame releases can be categorised into two main categories: major updates that symbolize a new backwards compatibility baseline, and new versions containing novel features and bug fixes. The first one corresponds to the major indicator in the semantic version convension, the latter corresponds to the minor type. There might also be a version number that represents a patch, which is incremented by small bug fixes that are merged into the Master branch.
+> The evolution perspective focuses on identifying the ability to be flexible in the face of inevitable change. 
 
-The first type has only occurred three times in the history of MonoGame. The latter on the other hand, has an average frequency between 1-2 years. Figure 4.1&Figure4.2 give an overview of the different release and mentions the changes with the largest magnitude of change.
+As discussed by [Rozanski]() and [Woods](), a flexible system should be able to deal with all possible types of changes that it may experience during its lifetime.
+
+Therefore, the changes throughout the lifetime of the project are analyses in the *Figure4.1*, and the mechanisms in place to provide flexibility are showed in the *Figure4.2.*
+
+MonoGame updates their current version number according to the semantic versioning convention. 
+
+> Most MonoGame releases can be categorised into two main categories:
+
+major updates that symbolize a new backwards compatibility baseline, and new versions containing novel features and bug fixes. The first one corresponds to the major indicator in the semantic version convension, the latter corresponds to the minor type. There might also be a version number that represents a patch, which is incremented by small bug fixes that are merged into the Master branch.
+
+The first type has only occurred three times in the history of MonoGame. The latter on the other hand, has an average frequency between 1-2 years. *Figure 4.1*&*Figure4.2* give an overview of the different release and mentions the changes with the largest magnitude of change.
 
 ![EvolutionView](./EvolutionView.png)
-Figure 4.1: Evolution view.
+*Figure 4.1: Evolution view.*
+
+
 
 Obviously,  the most biggest change showed in the version3.0. The changes are as followed.
 * 3D (many thanks to Infinite Flight Studios for the code and Sickhead Games in taking the time to merge the code in)
@@ -227,11 +247,11 @@ Obviously,  the most biggest change showed in the version3.0. The changes are as
 
 
 
-And,based on the layer struture of the whole Program, we analyses the mechanisms in place to provide flexibility from Graph User Interface, Components For Functions, Components For Platforms and Visualization Components , these four aspects.
+And, based on the layer struture of the whole Program, we analyses the mechanisms in place to provide flexibility from *Graph User Interface, Components For Functions, Components For Platforms and Visualization Components* , these four aspects.
 
 ![EvolutionView](./StructureEvolution.png)
 
-Figure 4.2: Structure Evolution view.
+*Figure 4.2: Structure Evolution view.*
 
 ## Logical view
 
