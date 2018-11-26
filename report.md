@@ -120,7 +120,7 @@ The context view describes the relationships, dependencies, and interactions bet
 
 ### System scope & Responsibilities
 
-MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow XNA developers on Xbox 360, Windows & Windows Phone to port their games to the iOS, Android, Mac OS X, Linux and Windows 8/10.As well as PlayStation Vita, Xbox One and PlayStation 4. As a pioneer of framworks for creating cross-platform games, MonoGame possesses 4 prominent advantages. 
+MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow XNA developers on Xbox 360, Windows & Windows Phone to port their games to the iOS, Android, Mac OS X, Linux and Windows 8/10.As well as PlayStation Vita, Xbox One and PlayStation 4. As a pioneer of framworks for creating cross-platform games, MonoGame possesses 4 prominent advantages, which are displayed in [the main page](http://www.monogame.net/).
 
 #### Managed Code 
 
