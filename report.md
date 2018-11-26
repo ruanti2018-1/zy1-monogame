@@ -207,12 +207,12 @@ This section analyses the evolution of the Monogame Framework. The evolution per
 
 MonoGame updates their current version number according to the semantic versioning convention. Most MonoGame releases can be categorised into two main categories: major updates that symbolize a new backwards compatibility baseline, and new versions containing novel features and bug fixes. The first one corresponds to the major indicator in the semantic version convension, the latter corresponds to the minor type. There might also be a version number that represents a patch, which is incremented by small bug fixes that are merged into the Master branch.
 
-The first type has only occurred three times in the history of MonoGame. The latter on the other hand, has an average frequency between 1-2 years. Figure 5 give an overview of the different release and mentions the changes with the largest magnitude of change.
+The first type has only occurred three times in the history of MonoGame. The latter on the other hand, has an average frequency between 1-2 years. Figure 4.1&Figure4.2 give an overview of the different release and mentions the changes with the largest magnitude of change.
 
 ![EvolutionView](./EvolutionView.png)
-Figure 4: Evolution view.
+Figure 4.1: Evolution view.
 
-But the most biggest change showed in the version3.0. The changes are as followed.
+Obviously,  the most biggest change showed in the version3.0. The changes are as followed.
 * 3D (many thanks to Infinite Flight Studios for the code and Sickhead Games in taking the time to merge the code in)
 * New platforms: Windows 8, Windows Phone 8, OUYA, PlayStation Mobile (including Vita)
 * Custom Effects
@@ -224,6 +224,10 @@ But the most biggest change showed in the version3.0. The changes are as followe
 * New MonoDevelop Package/AddIn
 * A LOT of bug fixes
 * Closer XNA 4 compatibility
+
+![EvolutionView](./StructureEvolution.png)
+
+Figure 4.2: Structure Evolution view.
 
 ## Logical view
 
@@ -420,12 +424,14 @@ In order to realize the aim,especially at the stage of earlier decisions, Monoga
 
 ![EarliestDecision](./EarliestDecision.jpg)
 
+​									Figure 9: Earliest decision.
+
 - First, Monogame had better take XNA as cornerstone, which is an renowned open source method. XNA is intended for writing once and running everywhere, so just a small piece of code needs to be modified to run across Windows, Mac OS, Linux, Android and IOS. What's more, based on XNA, MonaGame isn't depended on specific device, providing support for both usual input device such as mouse and keyboard and unusual ones such as XBox360 and other gamePad.
 - Then, only one high level programming language is applied in  the whole platform, that is C#. Thus, make this framework more user friendly and developer friendly. And just as we mentioned before, the project is based on Windows XNA and C# is literally perfect for this API because they are both products of the Microsoft Company.
 - Last but not least, developers of Monogame determined that Monogame should be layered, which consists of basic support layer, compound component layer and user-oriented integrated API layer, three layers. Layered architecture really let the whole project benefits from flexibilities, contributing to realizing its goal that let users write great game by simple API. Basic Support Layer compose of fundamental data store, basic class like vector,point,plane and basic library for physics and mathematics. Compound Component Layer contains third-party tools, small function mode for a paticular service and Cross-Platform adaptive component. User-Friendly API is powerful and easy to use like Song, Video and other Media API, something like these.
 
 
-Figure 9: Earliest decision.
+
 
 #### Q&A
 
