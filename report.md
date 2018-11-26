@@ -504,7 +504,12 @@ Some suggestions that	could be made to help	developers	in the future include:
 
 ## References
 1.	Nick	Rozanski	and	Eoin	Woods.	Software	Systems	Architecture:	Working	with Stakeholders	using	Viewpoints	and	Perspectives.	Addison-Wesley,	2012. 
-2. Main references from MonoGame website: 
+2. https://github.com/MonoGame/MonoGame/graphs/contributors  Github contributors graph.
+3. https://github.com/MonoGame/MonoGame/tree/develop/ThirdParty   Lists the third-party software dependencies.
+4. https://github.com/MonoGame/MonoGame/tree/develop/Test  Monogame tests details.
+5. https://github.com/MonoGame/MonoGame/blob/develop/CODESTYLE.md  Code style standard for Monogame.
+6. https://github.com/MonoGame/MonoGame/blob/develop/CONTRIBUTING.md  A simple guide to help contributors by Monogame team.
+7. Main references from MonoGame website: 
 - Introduction:
    - http://www.monogame.net/documentation/?page=What_is_MonoGame
    - http://www.monogame.net/news/
@@ -525,8 +530,3 @@ Some suggestions that	could be made to help	developers	in the future include:
    - https://github.com/MonoGame/MonoGame		  
 - Deployment view:
    - http://www.monogame.net/documentation/?page=Pipeline
-3. https://github.com/MonoGame/MonoGame/graphs/contributors  Github contributors graph.
-4. https://github.com/MonoGame/MonoGame/tree/develop/ThirdParty   Lists the third-party software dependencies.
-5. https://github.com/MonoGame/MonoGame/tree/develop/Test  Monogame tests details.
-6. https://github.com/MonoGame/MonoGame/blob/develop/CODESTYLE.md  Code style standard for Monogame.
-7. https://github.com/MonoGame/MonoGame/blob/develop/CONTRIBUTING.md  A simple guide to help contributors by Monogame team.
