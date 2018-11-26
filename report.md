@@ -203,7 +203,7 @@ Figure 3: Shows external links to several useful reference sites related to Mono
 
 ## Evolution View
 
-This section analyses the evolution of the Monogame Framework. The evolution perspective focuses on identifying the ability to be flexible in the face of inevitable change. As discussed by Rozanski and Woods, a flexible system should be able to deal with all possible types of changes that it may experience during its lifetime. Therefore, the changes throughout the lifetime of the project are analyses, and the mechanisms in place to provide flexibility are discussed.
+This section analyses the evolution of the Monogame Framework according to [ChangeLog](http://www.monogame.net/documentation/?page=Change_log) . The evolution perspective focuses on identifying the ability to be flexible in the face of inevitable change. As discussed by Rozanski and Woods, a flexible system should be able to deal with all possible types of changes that it may experience during its lifetime. Therefore, the changes throughout the lifetime of the project are analyses in the Figure4.1, and the mechanisms in place to provide flexibility are showed in the Figure4.2.
 
 MonoGame updates their current version number according to the semantic versioning convention. Most MonoGame releases can be categorised into two main categories: major updates that symbolize a new backwards compatibility baseline, and new versions containing novel features and bug fixes. The first one corresponds to the major indicator in the semantic version convension, the latter corresponds to the minor type. There might also be a version number that represents a patch, which is incremented by small bug fixes that are merged into the Master branch.
 
@@ -224,6 +224,10 @@ Obviously,  the most biggest change showed in the version3.0. The changes are as
 * New MonoDevelop Package/AddIn
 * A LOT of bug fixes
 * Closer XNA 4 compatibility
+
+
+
+And,based on the layer struture of the whole Program, we analyses the mechanisms in place to provide flexibility from Graph User Interface, Components For Functions, Components For Platforms and Visualization Components , these four aspects.
 
 ![EvolutionView](./StructureEvolution.png)
 
