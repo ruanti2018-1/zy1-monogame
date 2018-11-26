@@ -290,7 +290,7 @@ At the beginning, you have to set the environment before starting your code-writ
 
 Since Monogame 	is	an	open	source	platform,	everyone	is	free	to	contribute	to	the	repository	on GitHub.	Seeing	as	multiple	contributors	are	influencing	Monogame,	the	core	developers	have standardised	aspects	of	the	design	of	the	system	to	make	it	as	maintainable,	reliable	and technically	cohesive	as	possible.
 
-As the MonoGame project gains more traction and becomes more widely used, we aim to provide a more professional and consistent look to the large amount of source now in the project.  It was a broadly supported decision by the core development team to follow the Microsoft coding guidelines (the default provided in Visual Studio's C# editor).  These coding guidelines listed below from [CODESTYLE.md] (https://github.com/MonoGame/MonoGame/blob/develop/CODESTYLE.md) are based on a [MSDN blog post](http://blogs.msdn.com/b/brada/archive/2005/01/26/361363.aspx) from 2005 by Brad Abrams describing the internal coding guidelines at Microsoft, with some changes to suit our project.
+As the MonoGame project gains more traction and becomes more widely used, we aim to provide a more professional and consistent look to the large amount of source now in the project.  It was a broadly supported decision by the core development team to follow the Microsoft coding guidelines (the default provided in Visual Studio's C# editor).  These coding guidelines listed below from [CODESTYLE.md](https://github.com/MonoGame/MonoGame/blob/develop/CODESTYLE.md) are based on a [MSDN blog post](http://blogs.msdn.com/b/brada/archive/2005/01/26/361363.aspx) from 2005 by Brad Abrams describing the internal coding guidelines at Microsoft, with some changes to suit our project.
 - Tab characters (\0x09) should not be used in code. All indentation should be done with 4 space characters.
 - Open braces should always be at the beginning of the line after the statement that begins the block. Contents of the brace should be indented by 4 spaces. Single statements do not have braces.
 - Comments should be used to describe intention, algorithmic overview, and/or logical flow. Comments must provide added value or explanation to the code. Simply describing the code is not helpful or useful.
@@ -506,31 +506,25 @@ Some suggestions that	could be made to help	developers	in the future include:
 1.	Nick	Rozanski	and	Eoin	Woods.	Software	Systems	Architecture:	Working	with Stakeholders	using	Viewpoints	and	Perspectives.	Addison-Wesley,	2012. 
 2. Main references from MonoGame website: 
 - Introduction:
--   http://www.monogame.net/documentation/?page=What_is_MonoGame
--   http://www.monogame.net/news/
--   http://www.monogame.net/about/
-		
+   - http://www.monogame.net/documentation/?page=What_is_MonoGame
+   - http://www.monogame.net/news/
+   - http://www.monogame.net/about/		
 - Stakeholder: 
--   http://www.monogame.net/about/
--   http://community.monogame.net/users/KonajuGames/activity	       
--   https://github.com/tomspilman	       
--   https://github.com/MonoGame/MonoGame/graphs/contributors
-	       
+   - http://www.monogame.net/about/
+   - http://community.monogame.net/users/KonajuGames/activity	       
+   - https://github.com/tomspilman	       
+   - https://github.com/MonoGame/MonoGame/graphs/contributors	       
 - Context view:
--   http://www.monogame.net/documentation/?page=System_Requirements
--   http://www.monogame.net/documentation/?page=Setting_Up_MonoGame
--   http://www.monogame.net/documentation/?page=External_Links
-		
+   - http://www.monogame.net/documentation/?page=System_Requirements
+   - http://www.monogame.net/documentation/?page=Setting_Up_MonoGame
+   - http://www.monogame.net/documentation/?page=External_Links		
 - Evolution view:
--   http://www.monogame.net/documentation/?page=Change_log
-
+   - http://www.monogame.net/documentation/?page=Change_log
 - Development flow:
--   http://www.monogame.net/documentation/?page=Getting_Started
--   https://github.com/MonoGame/MonoGame
-		  
-- deployment view:
--   http://www.monogame.net/documentation/?page=Pipeline
-
+   - http://www.monogame.net/documentation/?page=Getting_Started
+   - https://github.com/MonoGame/MonoGame		  
+- Deployment view:
+   - http://www.monogame.net/documentation/?page=Pipeline
 3. https://github.com/MonoGame/MonoGame/graphs/contributors  Github contributors graph.
 4. https://github.com/MonoGame/MonoGame/tree/develop/ThirdParty   Lists the third-party software dependencies.
 5. https://github.com/MonoGame/MonoGame/tree/develop/Test  Monogame tests details.
