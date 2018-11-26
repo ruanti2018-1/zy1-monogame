@@ -492,4 +492,18 @@ Some suggestions that	could be made to help	developers	in the future include:
 
 ## References
 1.	Nick	Rozanski	and	Eoin	Woods.	Software	Systems	Architecture:	Working	with Stakeholders	using	Viewpoints	and	Perspectives.	Addison-Wesley,	2012. 
-2. MonoGame Documentation  http://www.monogame.net/documentation/?page=main
+2. Main references from MonoGame website: 
+- Introduction: http://www.monogame.net/documentation/?page=What_is_MonoGame
+	      http://www.monogame.net/news/
+	      http://www.monogame.net/about/
+- Stakeholder: http://www.monogame.net/about/
+	     http://community.monogame.net/users/KonajuGames/activity
+	     https://github.com/tomspilman
+	     https://github.com/MonoGame/MonoGame/graphs/contributors
+- Context view: http://www.monogame.net/documentation/?page=System_Requirements
+	      http://www.monogame.net/documentation/?page=Setting_Up_MonoGame
+	      http://www.monogame.net/documentation/?page=External_Links
+- Evolution view: http://www.monogame.net/documentation/?page=Change_log
+- Development flow: http://www.monogame.net/documentation/?page=Getting_Started
+		  https://github.com/MonoGame/MonoGame
+- deployment view: http://www.monogame.net/documentation/?page=Pipeline
