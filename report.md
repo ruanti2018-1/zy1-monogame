@@ -472,7 +472,6 @@ It can be concluded that technical debt in Monogame has been present from the st
 This chapter summarised and analysed the Monogame in many architectural views and perspectives, ins and outs of the Monogame system and what keeps it running, helping the reader to be able to understand and contribute to the project.
 
 First off, in the stakeholder analysis, we discovered that Monogame is actively maintained and developed by a small team of developers and external contributors. 
-
 In the Context View, the system scope of Monogame is given. We explained what tools Monogame uses to help maintaining and developing code, as well as give an overview of all the interactions between Monogame and its environment, which consists of Programming Language, Cornerstone API, Version Control tools, IDE support, User, Developers, Supported Platform, and Communication, Eight part.
 
 As for evolution view, this section analyses the evolution of the Monogame Framework, including both detailed information of version iteration and main aspects of framwork change. The evolution perspective focuses on identifying the ability to main flexibility with inevitable change too.
@@ -495,29 +494,21 @@ Some suggestions that	could be made to help	developers	in the future include:
 2. Main references from MonoGame website: 
 - Introduction: 
 		http://www.monogame.net/documentation/?page=What_is_MonoGame
-
 	 	http://www.monogame.net/news/
+		http://www.monogame.net/about/
 		
-	 	http://www.monogame.net/about/
-		
-- Stakeholder: http://www.monogame.net/about/
-
-	       http://community.monogame.net/users/KonajuGames/activity
+- Stakeholder:- http://www.monogame.net/about/
+	      - http://community.monogame.net/users/KonajuGames/activity	       
+	      - https://github.com/tomspilman	       
+	      - https://github.com/MonoGame/MonoGame/graphs/contributors
 	       
-	       https://github.com/tomspilman
-	       
-	       https://github.com/MonoGame/MonoGame/graphs/contributors
-	       
-- Context view: http://www.monogame.net/documentation/?page=System_Requirements
-
-	        http://www.monogame.net/documentation/?page=Setting_Up_MonoGame
+- Context view:- http://www.monogame.net/documentation/?page=System_Requirements
+	       - http://www.monogame.net/documentation/?page=Setting_Up_MonoGame
+	       - http://www.monogame.net/documentation/?page=External_Links
 		
-	        http://www.monogame.net/documentation/?page=External_Links
-		
-- Evolution view: http://www.monogame.net/documentation/?page=Change_log
+- Evolution view:- http://www.monogame.net/documentation/?page=Change_log
 
-- Development flow: http://www.monogame.net/documentation/?page=Getting_Started
-
-		  https://github.com/MonoGame/MonoGame
+- Development flow:- http://www.monogame.net/documentation/?page=Getting_Started
+		   - https://github.com/MonoGame/MonoGame
 		  
-- deployment view: http://www.monogame.net/documentation/?page=Pipeline
+- deployment view:- http://www.monogame.net/documentation/?page=Pipeline
