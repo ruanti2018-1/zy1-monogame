@@ -46,6 +46,7 @@ Early 2012 saw the addition of the DirectX 11 backend and support for Windows 8 
 Microsoft Studios published several titles using MonoGame in 2013 on Windows 8 and Windows Phone 8. 2013 also saw the announcement of the first MonoGame titles coming to PlayStation 4 including TowerFall Ascension, Transistor, and Mercenary Kings.
 
 In early 2014 stewardship of the MonoGame project was handed off to Tom Spilman and Steve Williams who currently lead the project.
+
 *Figure 0. History of Monogame*
 ![histroy](https://github.com/ruanti2018-1/zy1-monogame/blob/master/history.png)
 
