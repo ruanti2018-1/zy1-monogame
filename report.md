@@ -514,6 +514,7 @@ Complexity(185) | Style(2150) | Compatibility(2) | Performance(70) | Maintainabi
 
 In order to getting better perspective about the evolution of the technical debt in the project over time, let's look at the different releases of Monogame. The project has a total of 14 releases since 2009. Monogame release its version of beta testing at the Monogame 3.0 Beta. Besides, we use the **CodeFactor** to test the codes. In the image we can know the developement of the code line. However, CodeFactor can only test the project posted on github in 1 year time, though different releases won't classify clearly, as time goes by, codeline is becoming more and more and accompanying issues are increasing but after reach a point the lines tends to be unchange. The bugs, vulnerabilities and technical-debt is generally stable over the last few releases.  
 
+*Figure 11. Code lines in development of branch
 ![evolution of technical debt](https://github.com/ruanti2018-1/zy1-monogame/blob/master/evolution.jpg)
 
 It can be concluded that technical debt in Monogame has been present from the start and has evolved over time along with the project. The biggest issues concerning tehnical debt are styles and maintainability of the code, developers may not pay much attention to teh normalization and appearance of codeline.  
