@@ -295,7 +295,7 @@ The above gragh shows the soource and division which are listed as follows:
 #### Module Organization
 
 ![Module View Graph](https://github.com/ruanti2018-1/zy1-monogame/blob/master/CodeModuleView.png)
-
+*Figure 8: Code Module view*
 It is shown in the picture that, the code of MonoGame can be reflected into three layers: Game, which is the management of the whole project; four lower parts that Game is consisted of; and the lowest part that combine all the details and contents, attributes. The relationships of the classes are nearly totally association and interfacing, so the structure of MonoGame's code is comparatively amenable.
 
 #### Codeline Organization
@@ -310,7 +310,7 @@ It is shown in the picture that, the code of MonoGame can be reflected into thre
 You can easily get to know about the steps with the following flow chart:
 
 ![Developing flow chart](https://github.com/ruanti2018-1/zy1-monogame/blob/master//Developing.png )
-Figure 8: Developing flow.
+*Figure 9: Developing flow.*
 
 At the beginning, you have to set the environment before starting your code-writing. After deciding your platforms and IDE, you can choose to download Monogame. Then, it will be convenient to develop your own projects with the help of MonoGame website:@www.monogame.net/about/
 
@@ -448,7 +448,7 @@ In order to realize the aim,especially at the stage of earlier decisions, Monoga
 
 ![EarliestDecision](./EarliestDecision.jpg)
 
-​									Figure 9: Earliest decision.
+​									*Figure 10: Earliest decision.*
 
 - First, Monogame had better take XNA as cornerstone, which is an renowned open source method. XNA is intended for writing once and running everywhere, so just a small piece of code needs to be modified to run across Windows, Mac OS, Linux, Android and IOS. What's more, based on XNA, MonaGame isn't depended on specific device, providing support for both usual input device such as mouse and keyboard and unusual ones such as XBox360 and other gamePad.
 - Then, only one high level programming language is applied in  the whole platform, that is C#. Thus, make this framework more user friendly and developer friendly. And just as we mentioned before, the project is based on Windows XNA and C# is literally perfect for this API because they are both products of the Microsoft Company.
@@ -477,7 +477,7 @@ Basic support layer; compound component layer; user-oriented integrated API laye
 
 ## Technical debt
 
-- We have used **CODEBEAT** to analysis JavaScript projects and **CodeFactor** to analysis C# projects. Here comes the technical debt of JS first. As there are few projects written by js, the grade is high with 3.9/4.0 score. ![cbgpa](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/CBGPA.png)
+- We have used **CODEBEAT** to analysis JavaScript projects and **CodeFactor** to analysis C# projects. Here comes the technical debt of JS first. As there are few projects written by js, the grade is high with 3.9/4.0 score. 
 
 - Complexity, Styles will show as follows, Duplications and Security are no results and no changes. 
 Function is too long in ```Documentation/Styles/MonoGame/js/sharpdoc.js.SplitPane``` to cause a little error which increases the complexity of the project, as for styles, we can see there are some defined but never used variables, those are developers need to take into account.
@@ -486,7 +486,7 @@ Function is too long in ```Documentation/Styles/MonoGame/js/sharpdoc.js.SplitPan
 - Quick Wins shows found issues with the biggest overall impact on project's health, try to refactor these hot spots will improve the GPA.
 Namespaces helps us measure technical debt and find refactoring opportunities. We can easily draw the conclusion that decrease the  complexity of js files will distribute a lot to better its performance. ![qw](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/QW.png) ![name](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/Nam.png)
 
-- CodeFactor reveals the overall grade score of Monogame is 8.75/10 which means B+. There are 3400 issues and 1430 files to be analyzed.![cf](https://github.com/ruanti2018-1/zy1-monogame/blob/master/technicaldebt/CFGPA.png)
+- CodeFactor reveals the overall grade score of Monogame is 8.75/10 which means B+. There are 3400 issues and 1430 files to be analyzed.
 
 - Six factors relates to program developing are showed now, They are problems in 3400 issues, monogame developers need to consider to solve them. As for CSharp files, the coding style and loss of maintainability account for a large proportion to technical debt, most of them are nonstandard code.
 
