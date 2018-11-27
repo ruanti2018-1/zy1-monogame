@@ -75,7 +75,7 @@ In early 2014 stewardship of the MonoGame project was handed off to Tom Spilman 
 - Users：
    - The major user of Monogame is individual developers. Their concrete names are hard to find. There are some prominent productions such as Stardewvalley, Pumpkin Games, Apotheon.etc
 
-*Table1:Most	active	contributors	in	trems	of	number	of	commits*
+*Table 1:Most	active	contributors	in	trems	of	number	of	commits*
 
  Contributor | Commits | LOC++ | LOC-- | Active during 
  ----|----|----|----|----
@@ -104,7 +104,7 @@ In early 2014 stewardship of the MonoGame project was handed off to Tom Spilman 
 
 It is known that MonoGame is a software structure that focus on C# game developing, so the table below illustrates six scenario of MonoGame quality attributes:
 
-*Table2: Quality attributes analysis*
+*Table 2: Quality attributes analysis*
 
 Quality Attribute	| scenery	| stimulus	| stimulation	| product	| environment	| response
 -----|-----|-----|-----|-----|-----|-----
@@ -256,6 +256,7 @@ And, based on the layer struture of the whole Program, we analyses the mechanism
 ## Logical view
 
 ![LogicalView](https://github.com/ruanti2018-1/zy1-monogame/blob/master/logicalView.png)
+
 *Figure 5. Logical view*
 
 * The user sends the request to the front-end controller. The dispatcher servelet decides which page controller to process according to the request information and delegates the request to it, namely the control logic part of the former controller.
@@ -408,6 +409,7 @@ Aside from the memory required to install Monogame in the first place, no other 
 ### Third-party dependencies
 
 Monogame needs a few third-party software packages in order to be used. The user doesn't need to download anthing else then the Monogame software, next some of the Monogame binary dependencies submodule will be introduced.
+
 *Table 3. Third-party dependencies and roles*
 
  Dependencies | Role
@@ -492,7 +494,8 @@ Namespaces helps us measure technical debt and find refactoring opportunities. W
 - CodeFactor reveals the overall grade score of Monogame is 8.75/10 which means B+. There are 3400 issues and 1430 files to be analyzed.
 
 - Six factors relates to program developing are showed now, They are problems in 3400 issues, monogame developers need to consider to solve them. As for CSharp files, the coding style and loss of maintainability account for a large proportion to technical debt, most of them are nonstandard code.
-*Table 5. Six issues affected Monogame in CodeFactor*
+
+*Table 4. Six issues affected Monogame in CodeFactor*
 
 Complexity(185) | Style(2150) | Compatibility(2) | Performance(70) | Maintainability(992) | Accessibility(1)
 ----|-------|-----|-------|-----|-----
