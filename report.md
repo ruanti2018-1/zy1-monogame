@@ -232,7 +232,6 @@ The first type has only occurred three times in the history of MonoGame. The lat
 *Figure 4.1: Evolution view.*
 
 
-
 Obviously,  the most biggest change showed in the version3.0. The changes are as followed.
 * 3D (many thanks to Infinite Flight Studios for the code and Sickhead Games in taking the time to merge the code in)
 * New platforms: Windows 8, Windows Phone 8, OUYA, PlayStation Mobile (including Vita)
@@ -257,6 +256,7 @@ And, based on the layer struture of the whole Program, we analyses the mechanism
 ## Logical view
 
 ![LogicalView](https://github.com/ruanti2018-1/zy1-monogame/blob/master/logicalView.png)
+*Figure 5. Logical view*
 
 * The user sends the request to the front-end controller. The dispatcher servelet decides which page controller to process according to the request information and delegates the request to it, namely the control logic part of the former controller.
 * After receiving the request, the handler adapter conducts functional processing. It needs to collect and bind the request parameters to an object.
@@ -272,11 +272,11 @@ The following graph represents the file structure of Monogame source code:
 
 ![File structure Graph](https://github.com/ruanti2018-1/zy1-monogame/blob/master/LayerStructure.png)
 
-Figure 5: File structure
+*Figure 6: File structure*
 
 You can see from the picture that, the source code can be roughly divided into three parts: the code files for platforms (like Android, iOS, web, Mac), code files for components (components for drawing, as we know that Monogame is developed for game developing), and code files for functions (maybe it will be ok to call it operate components).
 
-- Here are the details of monogame's source code structure.(Figure 6 and 7)
+- Here are the details of monogame's source code structure.(*Figure 7.1 and 7.2*)
 ![source code structure](https://github.com/ruanti2018-1/zy1-monogame/blob/master/Source%20code%20structure.png)
 ![code detail](https://github.com/ruanti2018-1/zy1-monogame/blob/master/Source%20code%20detail.png)
 
@@ -297,6 +297,7 @@ The above gragh shows the soource and division which are listed as follows:
 
 ![Module View Graph](https://github.com/ruanti2018-1/zy1-monogame/blob/master/CodeModuleView.png)
 *Figure 8: Code Module view*
+
 It is shown in the picture that, the code of MonoGame can be reflected into three layers: Game, which is the management of the whole project; four lower parts that Game is consisted of; and the lowest part that combine all the details and contents, attributes. The relationships of the classes are nearly totally association and interfacing, so the structure of MonoGame's code is comparatively amenable.
 
 #### Codeline Organization
