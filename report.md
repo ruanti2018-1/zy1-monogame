@@ -117,7 +117,7 @@ Usability	| A game developer is trying to figure out how to use MonoGame to deve
 
 ## Context view
 
-The context view describes the relationships, dependencies, and interactions between the system and its environment(the people, systems, and external entities with which it interacts). This section examines Monogame's scope, its dependencies on others and the interaction with other parties.
+The context view describes the relationships, dependencies, and interactions between the system and its environment(*the people, systems, and external entities with which it interacts*). This section examines Monogame's scope, its dependencies on others and the interaction with other parties.
 
 #### System scope & Responsibilities
 
@@ -179,7 +179,7 @@ This section will give you an overview of minimal system requirements for develo
 * Windows Phone - Windows Phone 10
 
 #### Setting Up Monogame
-This section will help you setup MonoGame on Platform of your choice [Setting up Monogame](http://www.monogame.net/documentation/?page=Setting_Up_MonoGame)
+This section will give you an overview of minimal system requirements for developing and running MonoGame Applications according to [SystemRequirements](http://www.monogame.net/documentation/?page=System_Requirements)
 ##### Windows
 * [Visual Studio]() is an IDE used to develop applications in, among other languages, `C#.` `C#` is the most common language used in MonoGame development.
 ##### Mac
@@ -445,19 +445,19 @@ The Pipeline Tool is included in the SDK installation.
 
 ## Earlier decisions
 
-Software architecture is a manifestation of the earliest design decisions about a system. These early bindings carry enormous weight with respect to the system’s remaining development, its deployment, and its maintenance life. 
+> ​	Software architecture is a manifestation of the earliest design decisions about a system. These early bindings carry enormous weight with respect to the system’s remaining development, its deployment, and its maintenance life. 
 
-As for MonoGame, we attch great significance to its initial intention, "MonoGame Framework simplifies game developing greatly".  And we surround this idea to simulate the process of making ealier decisions.
+As for MonoGame, we attch great significance to its initial intention, **"MonoGame Framework simplifies game developing greatly"**.  And we surround this idea to simulate the process of making ealier decisions.
 
 In order to realize the aim,especially at the stage of earlier decisions, Monogame choose to take three measures. 
 
 ![EarliestDecision](./EarliestDecision.jpg)
 
-​									*Figure 10: Earliest decision.*
+*Figure 9: Earliest decision.*
 
-- First, Monogame had better take XNA as cornerstone, which is an renowned open source method. XNA is intended for writing once and running everywhere, so just a small piece of code needs to be modified to run across Windows, Mac OS, Linux, Android and IOS. What's more, based on XNA, MonaGame isn't depended on specific device, providing support for both usual input device such as mouse and keyboard and unusual ones such as XBox360 and other gamePad.
-- Then, only one high level programming language is applied in  the whole platform, that is C#. Thus, make this framework more user friendly and developer friendly. And just as we mentioned before, the project is based on Windows XNA and C# is literally perfect for this API because they are both products of the Microsoft Company.
-- Last but not least, developers of Monogame determined that Monogame should be layered, which consists of basic support layer, compound component layer and user-oriented integrated API layer, three layers. Layered architecture really let the whole project benefits from flexibilities, contributing to realizing its goal that let users write great game by simple API. Basic Support Layer compose of fundamental data store, basic class like vector,point,plane and basic library for physics and mathematics. Compound Component Layer contains third-party tools, small function mode for a paticular service and Cross-Platform adaptive component. User-Friendly API is powerful and easy to use like Song, Video and other Media API, something like these.
+- First, Monogame had better take XNA as **cornerstone**, which is an renowned open source method. XNA is intended for writing once and running everywhere, so just a small piece of code needs to be modified to run across *Windows, Mac OS, Linux, Android and IOS.* What's more, based on XNA, MonaGame isn't depended on **specific device**, providing support for both usual input device such as mouse and keyboard and unusual ones such as `XBox360` and other `gamePad`.
+- Then, only one high level programming language is applied in  the whole platform, that is `C#`. Thus, make this framework more user friendly and developer friendly. And just as we mentioned before, the project is based on `Windows XNA` and `C#` is literally perfect for this API because they are both products of the Microsoft Company.
+- Last but not least, developers of Monogame determined that Monogame should be layered, which consists of *basic support layer, compound component layer and user-oriented integrated API layer,* three layers. Layered architecture really let the whole project benefits from flexibilities, contributing to realizing its goal that let users write great game by simple API. **Basic Support Layer** compose of fundamental data store, basic class like *vector,point,plane and basic library for physics and mathematics.* **Compound Component Layer** contains third-party tools, small function mode for a paticular service and Cross-Platform adaptive component. **User-Friendly API** is powerful and easy to use like *Song, Video and other Media API,* something like these.
 
 
 
@@ -468,7 +468,7 @@ In order to realize the aim,especially at the stage of earlier decisions, Monoga
 - The system will across multiple processor.
 
 2.Will the software be layered? If so, how many layers will there be? What will each one do?
-- It will.
+- **It will.**
 Basic support layer; compound component layer; user-oriented integrated API layer.
 
 3.Will components communicate synchronously or asynchronously? Will they interact by transfering control or data or both?
@@ -523,9 +523,10 @@ It can be concluded that technical debt in Monogame has been present from the st
 This chapter summarised and analysed the Monogame in many architectural views and perspectives, ins and outs of the Monogame system and what keeps it running, helping the reader to be able to understand and contribute to the project.
 
 First off, in the stakeholder analysis, we discovered that Monogame is actively maintained and developed by a small team of developers and external contributors. 
-In the Context View, the system scope of Monogame is given. We explained what tools Monogame uses to help maintaining and developing code, as well as give an overview of all the interactions between Monogame and its environment, which consists of Programming Language, Cornerstone API, Version Control tools, IDE support, User, Developers, Supported Platform, and Communication, Eight part.
 
-As for evolution view, this section analyses the evolution of the Monogame Framework, including both detailed information of version iteration and main aspects of framwork change. The evolution perspective focuses on identifying the ability to main flexibility with inevitable change too.
+In the Context View, the system scope of Monogame is given. We explained what tools Monogame uses to help **maintaining and developing code**, as well as give an overview of all the interactions between Monogame and its environment, which consists of *Programming Language, Cornerstone API, Version Control tools, IDE support, User, Developers, Supported Platform, and Communication,* **Eight part**.
+
+As for evolution view, this section analyses the evolution of [the Monogame Framework](), including both **detailed information of version iteration** and **main aspects of framwork change**. The evolution perspective focuses on identifying the ability to main **flexibility** with inevitable change too.
 
 Next, in the logical view, we find that the MonoGame is a software which is based on several components. With the dispatcher servelet, the software gets what the user needs. the handler adapter conducts functional processing. It needs to collect and bind the request parameters to an object.
 
