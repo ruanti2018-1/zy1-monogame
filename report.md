@@ -74,7 +74,7 @@ In early 2014 stewardship of the MonoGame project was handed off to Tom Spilman 
 - Users：
    - The major user of Monogame is individual developers. Their concrete names are hard to find. There are some prominent productions such as Stardewvalley, Pumpkin Games, Apotheon.etc
 
-Table1:Most	active	contributors	in	trems	of	number	of	commits
+*Table1:Most	active	contributors	in	trems	of	number	of	commits*
 
  Contributor | Commits | LOC++ | LOC-- | Active during 
  ----|----|----|----|----
@@ -406,6 +406,7 @@ Aside from the memory required to install Monogame in the first place, no other 
 ### Third-party dependencies
 
 Monogame needs a few third-party software packages in order to be used. The user doesn't need to download anthing else then the Monogame software, next some of the Monogame binary dependencies submodule will be introduced.
+*Table 3. Third-party dependencies and roles*
 
  Dependencies | Role
  ---- | ----
@@ -489,6 +490,7 @@ Namespaces helps us measure technical debt and find refactoring opportunities. W
 - CodeFactor reveals the overall grade score of Monogame is 8.75/10 which means B+. There are 3400 issues and 1430 files to be analyzed.
 
 - Six factors relates to program developing are showed now, They are problems in 3400 issues, monogame developers need to consider to solve them. As for CSharp files, the coding style and loss of maintainability account for a large proportion to technical debt, most of them are nonstandard code.
+*Table 5. Six issues affected Monogame in CodeFactor*
 
 Complexity(185) | Style(2150) | Compatibility(2) | Performance(70) | Maintainability(992) | Accessibility(1)
 ----|-------|-----|-------|-----|-----
