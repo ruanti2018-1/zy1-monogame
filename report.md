@@ -524,9 +524,9 @@ This chapter summarised and analysed the Monogame in many architectural views an
 
 First off, in the stakeholder analysis, we discovered that Monogame is actively maintained and developed by a small team of developers and external contributors. 
 
-In the Context View, the system scope of Monogame is given. We explained what tools Monogame uses to help **maintaining and developing code**, as well as give an overview of all the interactions between Monogame and its environment, which consists of *Programming Language, Cornerstone API, Version Control tools, IDE support, User, Developers, Supported Platform, and Communication,* **Eight part**.
+In the Context View, the system scope of Monogame is given. We explained what tools Monogame uses to help maintaining and developing code, as well as give an overview of all the interactions between Monogame and its environment, which consists of Programming Language, Cornerstone API, Version Control tools, IDE support, User, Developers, Supported Platform, and Communication, Eight part.
 
-As for evolution view, this section analyses the evolution of [the Monogame Framework](), including both **detailed information of version iteration** and **main aspects of framwork change**. The evolution perspective focuses on identifying the ability to main **flexibility** with inevitable change too.
+As for evolution view, this section analyses the evolution of the Monogame Framework, including both detailed information of version iteration and main aspects of framwork change. The evolution perspective focuses on identifying the ability to main flexibility with inevitable change too.
 
 Next, in the logical view, we find that the MonoGame is a software which is based on several components. With the dispatcher servelet, the software gets what the user needs. the handler adapter conducts functional processing. It needs to collect and bind the request parameters to an object.
 
