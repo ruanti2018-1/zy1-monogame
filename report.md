@@ -5,7 +5,6 @@ MONOGAME
 
 ![monogame-logo](https://raw.githubusercontent.com/MonoGame/MonoGame.Logo/master/FullColorOnLight/SquareLogo_128px.png)
 -------------
-by 李斯琪，程浩宇，吴亦君，任远
 
 ## Abstract
 
